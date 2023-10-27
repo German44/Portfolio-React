@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+
+:root {
+    --color-primario: #8C113E;
+    --color-1: #03878C;
+    --color-2: #8C7C1F;
+    --color-3: #0D0D0D;
+    --color-texto: white;
+
+}
+
+/* 
 .btn {
     background: linear-gradient(92.23deg,
             #ff56f6 21.43%,
@@ -10,28 +23,68 @@
             #406aff 117.04%);
     box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
 }
+ */
+.btn {
+    /* font-size: 2rem; */
+    color: var(--color-3);
+    padding: 15px 60px;
+    border-radius: 62px;
+    background-color: var(--color-primario);
+    box-shadow: 0 0 1rem var(--color-primario);
+    text-shadow: 0 0 1rem var(--color-3);
+}
 
+.btn:hover {
+    box-shadow: none;
+    text-shadow: none;
+    transition: 0.5s ease;
+}
+
+
+/* 
 .btn:hover {
     background: linear-gradient(92.23deg,
             #406aff 21.43%,
             #3bace2 50.63%,
             #b936ee 100%,
             #ff56f6 117.04%);
-}
+} */
 
 .gradient,
 .active {
-    background: linear-gradient(92.23deg,
+    /* background: linear-gradient(92.23deg,
             #406aff 21.43%,
             #3bace2 50.63%,
             #b936ee 100%,
-            #ff56f6 117.04%);
+            #ff56f6 117.04%); */
+    background: rgb(140, 17, 62);
+    background: radial-gradient(circle, rgba(140, 17, 62, 1) 0%, rgba(52, 17, 140, 1) 100%);
 }
 
 .active {
     color: #fff;
     padding: 1rem;
     border-radius: 100%;
+}
+
+
+.social_links {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    border: solid .2rem var(--color-primario);
+    border-radius: 50%;
+    font-size: 2rem;
+    color: var(--color-primario);
+    text-decoration: none;
+}
+
+.social_links:hover {
+    box-shadow: 0 0 1rem var(--color-primario);
+    text-shadow: 0 0 1rem var(--color-3);
+    transition: 0.3s ease;
 }
 
 @layer base {
@@ -48,15 +101,15 @@
     }
 
     .btn {
-        @apply rounded-full font-primary text-white font-medium;
+        @apply rounded-full font-primary text-white font-bold text-xs;
     }
 
     .btn-sm {
-        @apply h-[48px] px-6 text-sm;
+        @apply h-[48px] px-4 text-sm;
     }
 
     .btn-lg {
-        @apply h-[56px] px-10 text-base;
+        @apply h-[56px] px-10 text-xl;
     }
 
     .btn-link {

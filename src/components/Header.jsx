@@ -11,9 +11,15 @@ const Header = () => {
             <img src={Logo}></img>
           </Link>
           <div className="flex text-[20px] lg:text-[40px] gap-x-8 max-w-max mx-auto lg:mx-0 items-center">
-            <a href=""><FaLinkedin /></a>
-            <a href=""><FaGithub /></a>
-            <a href=""><FaEnvelope /></a>
+            {/* <a  href=""><FaLinkedin color="#8C113E" className="rounded-full"/></a>
+            <a href=""><FaGithub color="#8C113E"/></a>
+            <a href=""><FaEnvelope color="#8C113E" /></a> */}
+            <a className="social_links" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/german-ravarotto/"><i
+              className="fa-brands fa-linkedin"></i></a>
+            <a className="social_links" target="_blank" rel="noreferrer" href="https://github.com/German44"><i
+              className="fa-brands fa-github"></i></a>
+            <a className="social_links" target="_blank" rel="noreferrer" href="mailto:g44ravarotto@gmail.com"><i
+              className="fa-solid fa-envelope"></i></a>
           </div>
         </div>
       </div>
