@@ -1,5 +1,5 @@
 import { BiHome, BiUser } from 'react-icons/Bi'
-import { BsClipboardData, BsBriefcase, BsChatSquare } from 'react-icons/Bs'
+import { BsClipboardData, BsBriefcase} from 'react-icons/Bs'
 import { Link as LinkScroll } from 'react-scroll/modules'
 
 const NavBar = () => {
@@ -10,8 +10,9 @@ const NavBar = () => {
           <LinkScroll
             to="home"
             activeClass='active'
-            smooth="true"
-            spy="true"
+            smooth={true}
+            spy={true}
+            offset={-200}
             className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center '>
             <BiHome />
           </LinkScroll>
@@ -26,16 +27,16 @@ const NavBar = () => {
           <LinkScroll
             to="work"
             activeClass='active'
-            smooth="true"
-            spy="true"
+            smooth={true}
+            spy={true}
             className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
             <BsBriefcase />
           </LinkScroll>
           <LinkScroll
             to="contact"
             activeClass='active'
-            smooth="true"
-            spy="true"
+            smooth={true}
+            spy={true}
             className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
             <BsClipboardData />
           </LinkScroll>

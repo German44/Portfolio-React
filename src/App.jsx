@@ -12,11 +12,11 @@ function App() {
   return (
     <div className='bg-site bg-no-repeat bg-cover overflow-hidden'>
       <BrowserRouter>
+        <Header />
         <Routes>
-
+          <Route ></Route>
         </Routes>
       </BrowserRouter>
-      <Header />
       <Banner />
       <NavBar />
       <About />
