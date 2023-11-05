@@ -1,5 +1,5 @@
 
-import { BsClipboardData, BsBriefcase, BsSquareFill, BsTriangleFill} from 'react-icons/Bs'
+import { BsClipboardData, BsBriefcase, BsSquareFill, BsTriangleFill} from 'react-icons/bs'
 import { Link as LinkScroll } from 'react-scroll/modules'
 
 const NavBar = () => {

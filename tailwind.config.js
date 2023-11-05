@@ -27,7 +27,6 @@ module.exports = {
       },
       backgroundImage: {
         site: "url('src/assets/abstract.jpg')",
-        // site:"url('src/assets/gradient.png')",
         about: "url('src/assets/about.png')",
         services: "url('src/assets/services.png')",
       },
