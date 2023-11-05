@@ -5,7 +5,7 @@ import Contact from '../src/components/Contact'
 import Header from '../src/components/Header'
 import Work from '../src/components/Work'
 import './App.css'
-// import NavBar from './components/NavBar'
+import NavBar from './components/NavBar'
 
 function App() {
 
@@ -18,7 +18,7 @@ function App() {
         </Routes>
       </BrowserRouter>
       <Banner />
-      {/* <NavBar /> */}
+      <NavBar />
       <About />
       <Work />
       <Contact />
