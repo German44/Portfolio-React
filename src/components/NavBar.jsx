@@ -1,4 +1,4 @@
-// import { BiHome, BiUser } from 'react-icons/Bi'
+
 import { BsClipboardData, BsBriefcase, BsSquareFill, BsTriangleFill} from 'react-icons/Bs'
 import { Link as LinkScroll } from 'react-scroll/modules'
 
