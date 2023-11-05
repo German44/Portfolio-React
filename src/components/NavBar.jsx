@@ -1,5 +1,5 @@
-import { BiHome, BiUser } from 'react-icons/Bi'
-import { BsClipboardData, BsBriefcase} from 'react-icons/Bs'
+// import { BiHome, BiUser } from 'react-icons/Bi'
+import { BsClipboardData, BsBriefcase, BsSquareFill, BsTriangleFill} from 'react-icons/Bs'
 import { Link as LinkScroll } from 'react-scroll/modules'
 
 const NavBar = () => {
@@ -14,7 +14,7 @@ const NavBar = () => {
             spy={true}
             offset={-200}
             className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center '>
-            <BiHome/>
+            <BsSquareFill/>
           </LinkScroll>
           <LinkScroll
             to="about"
@@ -22,7 +22,7 @@ const NavBar = () => {
             smooth={true}
             spy={true}
             className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
-            <BiUser />
+            <BsTriangleFill/>
           </LinkScroll>
           <LinkScroll
             to="work"
