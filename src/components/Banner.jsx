@@ -29,9 +29,11 @@ const Banner = () => {
                 sequence={[
                   'Desarrolador',
                   2000,
-                  'Diseñador',
+                  'Artista',
                   2000,
                   'Creativo',
+                  2000,
+                  'Musico',
                   2000,
                 ]}
                 speed={50}
