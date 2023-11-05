@@ -8,9 +8,9 @@ import './App.css'
 import NavBar from './components/NavBar'
 
 function App() {
-
+  // bg-site bg-no-repeat bg-cover overflow-hidden
   return (
-    <div className='bg-site bg-no-repeat bg-cover overflow-hidden'>
+    <div className='body'>
       <BrowserRouter>
         <Header />
         <Routes>
