@@ -18,7 +18,7 @@ const About = () => {
               initial='hidden'
               whileInView={'show'}
               viewport={{ once: false, amount: 0.7 }}
-              className="bg-red-500 w-full h-full">
+              className="bg-accent w-full h-full">
               <img
                 className="w-full h-full object-cover overflow-hidden relative left-2 bottom-2"
                 src="https://images.unsplash.com/photo-1531259683007-016a7b628fc3?auto=format&fit=crop&q=80&w=1974&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -40,9 +40,9 @@ const About = () => {
             whileInView={'show'}
             viewport={{ once: false, amount: 0.7 }}
             className=" w-full min-h-[75vh] lg:w-[400px] lg:h-[430px] flex flex-col justify-around items-center text-justify p-3 font-secondary lg:text-left  ">
-            <div >
+            <div>
               <motion.h3
-                className="font-bold text-3xl"
+                className="font-bold text-purple-500 text-3xl underline decoration-accent underline-offset-8"
                 variants={fadeIn('left', 0.4)}
                 initial='hidden'
                 whileInView={'show'}
@@ -73,13 +73,27 @@ const About = () => {
                 </ul>
               </motion.div>
             </div>
-            <div className="w-full h-10 bg-black">
-              <div className="w-full h-10 bg-black">
-                tools
-              </div>
-              <div className="w-full h-10 bg-black">
-                tools
-              </div>
+            <div className="w-full h-[200px] grid grid-cols-[repeat(6,1fr)] grid-rows-[repeat(4,1fr)] gap-x-[5px] gap-y-[5px];
+}">
+              <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/HTML.svg" alt="HTML " className="w-11 h-11" />
+              <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/CSS.svg" alt="CSS" className="w-11 h-11" />
+              <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/Sass.svg" alt="SSas" className="w-11 h-11" />
+              <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/Figma-Dark.svg" alt="Figma" className="w-11 h-11" />
+              <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/Git.svg" alt="Git" className="w-11 h-11" />
+              <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/Github-Dark.svg" alt="Github" className="w-11 h-11" />
+              <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/Bootstrap.svg" alt="Bootstrap" className="w-11 h-11" />
+              <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/JavaScript.svg" alt="JAvaScript" className="w-11 h-11" />
+              <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/Markdown-Dark.svg" alt="MarkDown" className="w-11 h-11" />
+              <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/MaterialUI-Dark.svg" alt="MAterialUI" className="w-11 h-11" />
+              <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/Netlify-Dark.svg" alt="Netflify" className="w-11 h-11" />
+              <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/NodeJS-Dark.svg" alt="NodeJS" className="w-11 h-11" />
+              <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/React-Dark.svg" alt="React" className="w-11 h-11" />
+              <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/Redux.svg" alt="Redux" className="w-11 h-11" />
+              <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/TailwindCSS-Dark.svg" alt="TailwindCSS" className="w-11 h-11" />
+              <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/TypeScript.svg" alt="typeScript" className="w-11 h-11" />
+              <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/Vercel-Dark.svg" alt="Vercel" className="w-11 h-11" />
+              <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/Vite-Dark.svg" alt="Vite" className="w-11 h-11" />
+              <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/Firebase-Dark.svg" alt="Firebase" className="w-11 h-11" />
             </div>
           </motion.article>
         </div>
