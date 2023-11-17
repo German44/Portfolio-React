@@ -24,7 +24,7 @@ const Work = () => {
             className="bg-black h-[340px] relative rounded-lg overflow-hidden">
             <div className="h-[340px] relative border-radius-8 overflow-hidden shadow-lg flex group">
               <img
-                src={Img3}
+                src={Img1}
                 alt="Calculadora"
                 className="max-w-full h-400 object-cover "
               />
@@ -65,7 +65,7 @@ const Work = () => {
             className="bg-black h-[340px] relative rounded-lg overflow-hidden">
             <div className="h-[340px] relative border-radius-8 overflow-hidden shadow-lg flex group">
               <img
-                src={Img3}
+                src={Img2}
                 alt="Calculadora"
                 className="max-w-full h-400 object-cover "
               />
