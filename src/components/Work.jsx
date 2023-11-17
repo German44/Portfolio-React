@@ -1,72 +1,187 @@
 import { motion } from "framer-motion"
 import { fadeIn } from "../variants"
 import Img1 from "../assets/portfolio-img1.png"
-// import Img2 from "../assets/E-commerceRock.png"
-// import Img3 from "../assets/portfolio-img3.png"
-
-
+import Img2 from "../assets/E-commerceRock.png"
+import Img3 from "../assets/portfolio-img3.png"
+import { FaGithub, FaExternalLinkAlt } from "react-icons/fa"
 
 
 const Work = () => {
   return (
-    <section id="work" className="min-h-[86vh] mt-9 flex items-center ">
+    <section id="work" className="min-h-[86vh] mt-9 flex items-center">
       <div className="container mx-auto">
-        <div className="min-h-[75vh] w-full relative top-6 mt-12 flex flex-col items-center gap-4 rounded-3xl lg:grid lg:grid-cols-[repeat(2,1fr)] lg:grid-rows-[repeat(2,1fr)] lg:gap-x-2.5 lg:gap-y-2.5 bg-black/20 backdrop-blur-2x1">
+        <div className="min-h-[75vh] w-full relative top-6  bg-black/20 backdrop-blur-2x1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 mt-12">
+          {/* Proyecto 1 */}
           <motion.div
-            variants={fadeIn('right', 0.2)}
+            variants={fadeIn('right', 0.3)}
             initial='hidden'
             whileInView={'show'}
             viewport={{ once: false, amount: 0.7 }}
-            className="w-1/2 h-auto lg:w-full lg:h-full bg-black">
-
-          </motion.div>
-          <motion.div
-            variants={fadeIn('left', 0.2)}
-            initial='hidden'
-            whileInView={'show'}
-            viewport={{ once: false, amount: 0.9 }}
-            className="w-1/2 h-auto lg:w-full lg:h-full flex">
-            <div className="w-3/4 h-full flex items-center justify-center ">
-              <div className="w-[90%] h-[90%] rounded-2xl">
-                <img src={Img1} alt="proyecto1" className="object-cover w-full h-full rounded-2xl hover:scale-110 transition-[0.4s] duration-[ease] " />
+            whileHover={{ scale: 1.05 }}
+            // initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.5 }}
+            className="bg-black h-[340px] relative rounded-lg overflow-hidden">
+            <div className="h-[340px] relative border-radius-8 overflow-hidden shadow-lg flex group">
+              <img
+                src={Img3}
+                alt="Calculadora"
+                className="max-w-full h-400 object-cover "
+              />
+              <div className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-b from-pink-600/80 to-indigo-900/80 flex justify-center items-center flex-col text-center px-16 transform translate-y-full transition-transform duration-500 group-hover:translate-y-0">
+                <h4 className="text-white font-bold text-2xl underline">Calculadora</h4>
+                <p className="text-white font-bold text-1.5xl my-16">Calculadora hecha con HTML, CSS y JavaScript</p>
+                <div className="flex mt-2">
+                  <a
+                    href="https://github.com/tu-usuario/tu-repositorio"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-300 hover:text-white mr-3"
+                  >
+                    <FaGithub size={20} />
+                  </a>
+                  <a
+                    href="https://tu-enlace-externo.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-300 hover:text-white"
+                  >
+                    <FaExternalLinkAlt size={20} />
+                  </a>
+                </div>
               </div>
             </div>
-            <div className="w-1/4 h-[100px] absolute right-0 top-12 bg-accent">
-              <p>E-Commerce hecho con React.js </p>
-            </div>
           </motion.div>
+          {/* Proyecto 2 */}
           <motion.div
-            variants={fadeIn('right', 0.2)}
+            variants={fadeIn('left', 0.3)}
             initial='hidden'
             whileInView={'show'}
             viewport={{ once: false, amount: 0.7 }}
-            className="w-1/2 h-auto lg:w-full lg:h-full bg-black relative overflow-hidden shadow-[0_0_1rem_var(--color-3)] flex rounded-[2rem]">
-
-
-          </motion.div>
-
-          <motion.div
-            variants={fadeIn('left', 0.2)}
-            initial='hidden'
-            whileInView={'show'}
-            viewport={{ once: false, amount: 0.9 }}
-            className="w-1/2 h-auto lg:w-full lg:h-full flex">
-            <div className="w-3/4 h-full flex items-center justify-center ">
-              <div className="w-[90%] h-[90%] rounded-2xl">
-                <img src={Img1} alt="proyecto1" className="object-cover w-full h-full rounded-2xl hover:scale-110 transition-[0.4s] duration-[ease] z-10 " />
+            whileHover={{ scale: 1.05 }}
+            // initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.5 }}
+            className="bg-black h-[340px] relative rounded-lg overflow-hidden">
+            <div className="h-[340px] relative border-radius-8 overflow-hidden shadow-lg flex group">
+              <img
+                src={Img3}
+                alt="Calculadora"
+                className="max-w-full h-400 object-cover "
+              />
+              <div className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-b from-pink-600/80 to-indigo-900/80 flex justify-center items-center flex-col text-center px-16 transform translate-y-full transition-transform duration-500 group-hover:translate-y-0">
+                <h4 className="text-white font-bold text-2xl underline">Calculadora</h4>
+                <p className="text-white font-bold text-1.5xl my-16">Calculadora hecha con HTML, CSS y JavaScript</p>
+                <div className="flex mt-2">
+                  <a
+                    href="https://github.com/tu-usuario/tu-repositorio"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-300 hover:text-white mr-3"
+                  >
+                    <FaGithub size={20} />
+                  </a>
+                  <a
+                    href="https://tu-enlace-externo.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-300 hover:text-white"
+                  >
+                    <FaExternalLinkAlt size={20} />
+                  </a>
+                </div>
               </div>
             </div>
-            <div className="w-1/4 h-[100px] absolute right-0 top-12 z-0 bg-accent">
-              <p>E-Commerce hech con React.js </p>
+          </motion.div>
+
+          {/* Proyecto 3 */}
+          <motion.div
+            variants={fadeIn('right', 0.3)}
+            initial='hidden'
+            whileInView={'show'}
+            viewport={{ once: false, amount: 0.7 }}
+            whileHover={{ scale: 1.05 }}
+            // initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.5 }}
+            className="bg-black h-[340px] relative rounded-lg overflow-hidden">
+            <div className="h-[340px] relative border-radius-8 overflow-hidden shadow-lg flex group">
+              <img
+                src={Img3}
+                alt="Calculadora"
+                className="max-w-full h-400 object-cover "
+              />
+              <div className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-b from-pink-600/80 to-indigo-900/80 flex justify-center items-center flex-col text-center px-16 transform translate-y-full transition-transform duration-500 group-hover:translate-y-0">
+                <h4 className="text-white font-bold text-2xl underline">Calculadora</h4>
+                <p className="text-white font-bold text-1.5xl my-16">Calculadora hecha con HTML, CSS y JavaScript</p>
+                <div className="flex mt-2">
+                  <a
+                    href="https://github.com/tu-usuario/tu-repositorio"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-300 hover:text-white mr-3"
+                  >
+                    <FaGithub size={20} />
+                  </a>
+                  <a
+                    href="https://tu-enlace-externo.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-300 hover:text-white"
+                  >
+                    <FaExternalLinkAlt size={20} />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </motion.div>
+
+          {/* Proyecto 4 */}
+          <motion.div
+            variants={fadeIn('left', 0.3)}
+            initial='hidden'
+            whileInView={'show'}
+            viewport={{ once: false, amount: 0.7 }}
+            whileHover={{ scale: 1.05 }}
+            // initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.5 }}
+            className="bg-black h-[340px] relative rounded-lg overflow-hidden">
+            <div className="h-[340px] relative border-radius-8 overflow-hidden shadow-lg flex group">
+              <img
+                src={Img3}
+                alt="Calculadora"
+                className="max-w-full h-400 object-cover "
+              />
+              <div className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-b from-pink-600/80 to-indigo-900/80 flex justify-center items-center flex-col text-center px-16 transform translate-y-full transition-transform duration-500 group-hover:translate-y-0">
+                <h4 className="text-white font-bold text-2xl underline">Calculadora</h4>
+                <p className="text-white font-bold text-1.5xl my-16">Calculadora hecha con HTML, CSS y JavaScript</p>
+                <div className="flex mt-2">
+                  <a
+                    href="https://github.com/tu-usuario/tu-repositorio"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-300 hover:text-white mr-3"
+                  >
+                    <FaGithub size={20} />
+                  </a>
+                  <a
+                    href="https://tu-enlace-externo.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-300 hover:text-white"
+                  >
+                    <FaExternalLinkAlt size={20} />
+                  </a>
+                </div>
+              </div>
             </div>
           </motion.div>
         </div>
       </div>
-
-
-
     </section >
   );
 };
 
 export default Work;
+
