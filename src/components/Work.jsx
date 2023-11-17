@@ -3,6 +3,8 @@ import { fadeIn } from "../variants"
 import Img1 from "../assets/portfolio-img1.png"
 import Img2 from "../assets/E-commerceRock.png"
 import Img3 from "../assets/portfolio-img3.png"
+import Img4 from "../assets/portfolio-img2.png"
+
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa"
 
 
@@ -149,7 +151,7 @@ const Work = () => {
             className="bg-black h-[340px] relative rounded-lg overflow-hidden">
             <div className="h-[340px] relative border-radius-8 overflow-hidden shadow-lg flex group">
               <img
-                src={Img3}
+                src={Img4}
                 alt="Calculadora"
                 className="max-w-full h-400 object-cover "
               />
