@@ -26,16 +26,16 @@ const Work = () => {
             className="bg-black h-[340px] relative rounded-lg overflow-hidden">
             <div className="h-[340px] relative border-radius-8 overflow-hidden shadow-lg flex group">
               <img
-                src={Img1}
-                alt="Calculadora"
-                className="max-w-full h-400 object-cover "
+                src={Img2}
+                alt="e-commerce"
+                className="max-w-full h-400 object-cover  "
               />
               <div className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-b from-pink-600/80 to-indigo-900/80 flex justify-center items-center flex-col text-center px-16 transform translate-y-full transition-transform duration-500 group-hover:translate-y-0">
-                <h4 className="text-white font-bold text-2xl underline">Calculadora</h4>
-                <p className="text-white font-bold text-1.5xl my-16">Calculadora hecha con HTML, CSS y JavaScript</p>
+                <h4 className="text-white font-bold text-justify text-2xl underline">E-Commerce de Indumentaria</h4>
+                <p className="text-white font-bold text-justify text-1.5xl my-16">E-Commerce realizado con React y tailwind CSS, se usaron librerias como NextUI y TailwindUI. De base de datos se utilizo Firebase.</p>
                 <div className="flex mt-2">
                   <a
-                    href="https://github.com/tu-usuario/tu-repositorio"
+                    href="https://github.com/German44/Vinyl-Shop.git"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-300 hover:text-white mr-3"
@@ -43,7 +43,7 @@ const Work = () => {
                     <FaGithub size={20} />
                   </a>
                   <a
-                    href="https://tu-enlace-externo.com"
+                    href="https://vinyl-shop-phi.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-300 hover:text-white"
@@ -67,13 +67,13 @@ const Work = () => {
             className="bg-black h-[340px] relative rounded-lg overflow-hidden">
             <div className="h-[340px] relative border-radius-8 overflow-hidden shadow-lg flex group">
               <img
-                src={Img2}
+                src={Img1}
                 alt="Calculadora"
                 className="max-w-full h-400 object-cover "
               />
               <div className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-b from-pink-600/80 to-indigo-900/80 flex justify-center items-center flex-col text-center px-16 transform translate-y-full transition-transform duration-500 group-hover:translate-y-0">
-                <h4 className="text-white font-bold text-2xl underline">Calculadora</h4>
-                <p className="text-white font-bold text-1.5xl my-16">Calculadora hecha con HTML, CSS y JavaScript</p>
+                <h4 className="text-white text-justify font-bold text-2xl underline">Calculadora</h4>
+                <p className="text-white text-justify font-bold text-1.5xl my-16">Calculadora hecha con HTML, CSS y JavaScript</p>
                 <div className="flex mt-2">
                   <a
                     href="https://github.com/tu-usuario/tu-repositorio"
@@ -114,8 +114,8 @@ const Work = () => {
                 className="max-w-full h-400 object-cover "
               />
               <div className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-b from-pink-600/80 to-indigo-900/80 flex justify-center items-center flex-col text-center px-16 transform translate-y-full transition-transform duration-500 group-hover:translate-y-0">
-                <h4 className="text-white font-bold text-2xl underline">Calculadora</h4>
-                <p className="text-white font-bold text-1.5xl my-16">Calculadora hecha con HTML, CSS y JavaScript</p>
+                <h4 className="text-white text-justify font-bold text-2xl underline">Calculadora</h4>
+                <p className="text-white text-justify font-bold text-1.5xl my-16">Calculadora hecha con HTML, CSS y JavaScript</p>
                 <div className="flex mt-2">
                   <a
                     href="https://github.com/tu-usuario/tu-repositorio"
@@ -156,8 +156,8 @@ const Work = () => {
                 className="max-w-full h-400 object-cover "
               />
               <div className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-b from-pink-600/80 to-indigo-900/80 flex justify-center items-center flex-col text-center px-16 transform translate-y-full transition-transform duration-500 group-hover:translate-y-0">
-                <h4 className="text-white font-bold text-2xl underline">Calculadora</h4>
-                <p className="text-white font-bold text-1.5xl my-16">Calculadora hecha con HTML, CSS y JavaScript</p>
+                <h4 className="text-white text-justify font-bold text-2xl underline">Calculadora</h4>
+                <p className="text-white text-justify font-bold text-1.5xl my-16">Calculadora hecha con HTML, CSS y JavaScript</p>
                 <div className="flex mt-2">
                   <a
                     href="https://github.com/tu-usuario/tu-repositorio"
