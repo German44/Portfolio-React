@@ -1,4 +1,3 @@
-// ContactForm.js
 import { useState } from 'react';
 
 const ContactForm = () => {
@@ -13,14 +12,31 @@ const ContactForm = () => {
         setFormData({ ...formData, [name]: value });
     };
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        // Aquí puedes manejar la lógica para enviar el formulario
-        console.log('Formulario enviado:', formData);
+        try {
+            await fetch('https://formspree.io/f/mbjveprp', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(formData),
+            });
+
+            console.log('Formulario enviado con éxito');
+            setFormData({
+                nombre: '',
+                email: '',
+                message: '',
+            });
+        } catch (error) {
+            console.error('Error al enviar el formulario:', error);
+        }
     };
 
+
     return (
-        <form className="max-w-md mx-auto mt-8" onSubmit={handleSubmit}>
+        <form className="w-full mx-auto mt-8" onSubmit={handleSubmit}>
             <div className="mb-4">
 
                 <input

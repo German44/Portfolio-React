@@ -24,14 +24,10 @@ const About = () => {
                 src="https://images.unsplash.com/photo-1531259683007-016a7b628fc3?auto=format&fit=crop&q=80&w=1974&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="" />
             </motion.div>
-            <p className=" text-lg text-justify lg:text-lg mt-1">
-              Hola, Soy <strong className="text-purple-500">German</strong> de Rosario Argentina, desarrollador web orientado al FrontEnd.
-            </p>
-            <p className=" text-lg text-justify lg:text-lg mt-1">
-              Estoy enfocado en aprender al maximo <strong className="text-purple-500">React.js</strong>.
-            </p>
-            <p className=" text-lg text-justify lg:text-lg mt-1">
-              Muchas Gracias por tomarte el tiempo para conocerme. Estoy entusiasmado por la posibilidad de trabajar juntos o colaborar en futuros proyectos.
+            <p className=" text-lg text-justify lg:text-lg m-3">
+              Hola, Soy <strong className="text-purple-500">German</strong> de Rosario Argentina, desarrollador web orientado al FrontEnd. <br />
+              Estoy enfocado en aprender al maximo <strong className="text-purple-500">React.js</strong>. <br />
+              En mi tiempo libre me encanta <strong className="text-purple-500">escuchar música</strong> y <strong className="text-purple-500">programar</strong> proyectos nuevos para sumar experiencia .
             </p>
           </motion.article>
           <motion.article

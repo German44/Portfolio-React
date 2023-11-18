@@ -5,6 +5,12 @@ import { motion } from "framer-motion"
 import { fadeIn } from "../variants"
 
 
+// Reemplaza 'ID_DEL_ARCHIVO' con el ID real de tu archivo en Google Drive
+const googleDriveFileId = '1LTja5061INTTENK-pJXuo0nfOeaoabEa';
+
+// Construye el enlace de descarga directa desde Google Drive
+const googleDriveDownloadLink = `https://drive.google.com/uc?export=download&id=${googleDriveFileId}`;
+
 const Banner = () => {
   return (
     <section className="min-h-[86vh] mt-[150px]" id="home">
@@ -50,13 +56,18 @@ const Banner = () => {
               className="mb-8 max-w-lg mx-auto lg:mx-0">
               ¡Bienvenido a mi portfolio, donde podrás explorar mi trabajo y mi dedicación por el desarrollo web!
             </motion.p>
-            <motion.button
-              variants={fadeIn('left', 0.1)}
+            <motion.a
+              href={googleDriveDownloadLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              variants={fadeIn('left', 0.2)}
               initial='hidden'
               whileInView={'show'}
               viewport={{ once: false, amount: 0.7 }}
-              className="btn btn-lg">Descargar C.V.
-            </motion.button>
+              className="btn btn-lg"
+            >
+              Descargar C.V.
+            </motion.a>
           </div>
           <motion.div
             variants={fadeIn('down', 0.5)}
