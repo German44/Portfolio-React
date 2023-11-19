@@ -64,23 +64,24 @@ const Contact = () => {
           </div>
           <div className="  w-[80%] min-h-[35vh] flex lg:flex-row flex-col items-center  text-center  lg:justify-between font-secondary lg:text-left">
             <div className=" lg:w-[60%] w-[100%] flex">
-            <ContactForm />
-            <div className=" min-h-[37vh] lg:w-[40%] w-[100%] flex justify-center items-center lg:items-end lg:justify-end lg:mb-4">
-              <motion.a
-                href={googleDriveDownloadLink}
-                target="_blank" // Abre el enlace en una nueva pestaña
-                rel="noopener noreferrer"
-                variants={fadeIn('left', 0.1)}
-                initial='hidden'
-                whileInView={'show'}
-                viewport={{ once: false, amount: 0.7 }}
-                className="btn lg:btn-lg btn-sm"
-              >
-                Descargar C.V.
-              </motion.a>
+              <ContactForm />
+              <div className=" min-h-[37vh] lg:w-[40%] w-[100%] flex justify-center items-center lg:items-end lg:justify-end lg:mb-4">
+                <motion.a
+                  href={googleDriveDownloadLink}
+                  target="_blank" // Abre el enlace en una nueva pestaña
+                  rel="noopener noreferrer"
+                  variants={fadeIn('left', 0.1)}
+                  initial='hidden'
+                  whileInView={'show'}
+                  viewport={{ once: false, amount: 0.7 }}
+                  className="btn lg:btn-lg btn-sm"
+                >
+                  Descargar C.V.
+                </motion.a>
+              </div>
             </div>
-          </div>
 
+          </div>
         </div>
       </div>
     </section>
