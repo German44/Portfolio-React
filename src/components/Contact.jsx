@@ -64,8 +64,7 @@ const Contact = () => {
           </div>
           <div className="  w-[80%] min-h-[35vh] flex lg:flex-row flex-col items-center  text-center  lg:justify-between font-secondary lg:text-left">
             <div className=" lg:w-[60%] w-[100%] flex">
-              <ContactForm />
-            </div>
+            <ContactForm />
             <div className=" min-h-[37vh] lg:w-[40%] w-[100%] flex justify-center items-center lg:items-end lg:justify-end lg:mb-4">
               <motion.a
                 href={googleDriveDownloadLink}
