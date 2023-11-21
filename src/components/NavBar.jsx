@@ -13,7 +13,7 @@ const NavBar = () => {
             smooth={true}
             spy={true}
             offset={-200}
-            className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center '>
+            className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center hover:bg-black/40 rounded-full'>
             < BsFillHouseFill />
           </LinkScroll>
           <LinkScroll
@@ -21,7 +21,7 @@ const NavBar = () => {
             activeClass='active'
             smooth={true}
             spy={true}
-            className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
+            className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center hover:bg-black/40 rounded-full'>
             <BsFillPersonFill/>
           </LinkScroll>
           <LinkScroll
@@ -29,7 +29,7 @@ const NavBar = () => {
             activeClass='active'
             smooth={true}
             spy={true}
-            className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
+            className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center hover:bg-black/40 rounded-full'>
             <BsBriefcaseFill />
           </LinkScroll>
           <LinkScroll
@@ -37,7 +37,7 @@ const NavBar = () => {
             activeClass='active'
             smooth={true}
             spy={true}
-            className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
+            className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center hover:bg-black/40 rounded-full'>
             <BsChatTextFill />
           </LinkScroll>
         </div>
