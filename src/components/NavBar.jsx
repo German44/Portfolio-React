@@ -1,5 +1,5 @@
 
-import { BsClipboardData, BsBriefcase, BsSquareFill, BsTriangleFill} from 'react-icons/bs'
+import { BsChatTextFill , BsBriefcaseFill,  BsFillHouseFill , BsFillPersonFill} from 'react-icons/bs'
 import { Link as LinkScroll } from 'react-scroll/modules'
 
 const NavBar = () => {
@@ -14,7 +14,7 @@ const NavBar = () => {
             spy={true}
             offset={-200}
             className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center '>
-            <BsSquareFill/>
+            < BsFillHouseFill />
           </LinkScroll>
           <LinkScroll
             to="about"
@@ -22,7 +22,7 @@ const NavBar = () => {
             smooth={true}
             spy={true}
             className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
-            <BsTriangleFill/>
+            <BsFillPersonFill/>
           </LinkScroll>
           <LinkScroll
             to="work"
@@ -30,7 +30,7 @@ const NavBar = () => {
             smooth={true}
             spy={true}
             className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
-            <BsBriefcase />
+            <BsBriefcaseFill />
           </LinkScroll>
           <LinkScroll
             to="contact"
@@ -38,7 +38,7 @@ const NavBar = () => {
             smooth={true}
             spy={true}
             className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
-            <BsClipboardData />
+            <BsChatTextFill />
           </LinkScroll>
         </div>
       </div>
