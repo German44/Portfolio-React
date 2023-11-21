@@ -1,12 +1,12 @@
 import { motion } from "framer-motion"
 import { fadeIn } from "../variants"
-
+import image from "../assets/under.png"
 
 const About = () => {
   return (
     <section className="min-h-[86vh] mt-9 flex items-center " id="about">
       <div className="container mx-auto">
-        <div className="min-h-[75vh] relative top-6 mt-12 flex flex-col items-center gap-4 rounded-3xl lg:flex-row lg:items-center lg:justify-around lg:gap-y-12 bg-black/20 backdrop-blur-2x1">
+        <div className="min-h-[75vh] relative top-6 mt-12 flex flex-col items-center gap-4 rounded-3xl lg:flex-row lg:items-center lg:justify-around lg:gap-y-12 bg-black/20 backdrop-blur-2xl">
           <motion.article
             variants={fadeIn('right', 0.3)}
             initial='hidden'
@@ -21,7 +21,7 @@ const About = () => {
               className="bg-accent w-full h-full">
               <img
                 className="lg:w-full lg:h-full w-[400px] h-[430px] object-cover overflow-hidden relative left-2 bottom-2 "
-                src="https://images.unsplash.com/photo-1531259683007-016a7b628fc3?auto=format&fit=crop&q=80&w=1974&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                src={image}
                 alt="" />
             </motion.div>
             <p className=" text-lg text-justify lg:text-lg m-3">

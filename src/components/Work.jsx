@@ -12,7 +12,7 @@ const Work = () => {
   return (
     <section id="work" className="min-h-[86vh] mt-9 flex items-center">
       <div className="container mx-auto">
-        <div className="min-h-[75vh] w-full relative top-6  bg-black/20 backdrop-blur-2x1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 mt-12">
+        <div className="min-h-[75vh] w-full relative top-6  bg-black/20 backdrop-blur-2xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 mt-12">
           {/* Proyecto 1 */}
           <motion.div
             variants={fadeIn('right', 0.3)}
@@ -110,15 +110,15 @@ const Work = () => {
             <div className="h-[340px] relative border-radius-8 overflow-hidden shadow-lg flex group">
               <img
                 src={Img3}
-                alt="Calculadora"
+                alt=""
                 className="max-w-full h-400 object-cover "
               />
               <div className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-b from-pink-600/80 to-indigo-900/80 flex justify-center items-center flex-col text-center px-16 transform translate-y-full transition-transform duration-500 group-hover:translate-y-0">
-                <h4 className="text-white text-justify font-bold text-2xl underline">Calculadora</h4>
-                <p className="text-white text-justify font-bold text-1.5xl my-16">Calculadora hecha con HTML, CSS y JavaScript</p>
+                <h4 className="text-white text-justify font-bold text-2xl underline">Agenda de Clientes</h4>
+                <p className="text-white text-justify font-bold text-1.5xl my-16">Agenda de clientes hecha con HTML, CSS y JavaScript</p>
                 <div className="flex mt-2">
                   <a
-                    href="https://github.com/tu-usuario/tu-repositorio"
+                    href="https://github.com/German44/Proyecto-final-JavaScript.git"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-300 hover:text-white mr-3"
@@ -126,7 +126,7 @@ const Work = () => {
                     <FaGithub size={20} />
                   </a>
                   <a
-                    href="https://tu-enlace-externo.com"
+                    href="https://german44.github.io/Proyecto-final-JavaScript/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-300 hover:text-white"

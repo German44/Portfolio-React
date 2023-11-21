@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 
 const Header = () => {
   return (
-    <header className="py-3  bg-black/20 h-[90px] backdrop-blur-2x1 fixed top-0 z-50 w-full">
+    <header className="py-3  bg-black/20 h-[90px] backdrop-blur-2xl fixed top-0 z-50 w-full">
       <div className="container mx-auto">
         <div className="flex justify-between items-center">
           <Link className="hidden lg:flex " to={"/"}>

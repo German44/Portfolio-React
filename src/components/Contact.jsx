@@ -15,7 +15,7 @@ const Contact = () => {
 
     <section id="contact" className="min-h-[86vh] mt-9 flex items-center ">
       <div className="container mx-auto">
-        <div className="min-h-[75vh] relative top-6 mt-12 flex flex-col items-center justify-between gap-4 rounded-3xl  bg-black/20 backdrop-blur-2x1">
+        <div className="min-h-[75vh] relative top-6 mt-12 flex flex-col items-center justify-between gap-4 rounded-3xl  bg-black/20 backdrop-blur-2xl">
           <div className=" w-[80%] relative min-h-[35vh] flex flex-col text-center  justify-center font-secondary lg:text-left">
             <div className=" w-2/3 lg:absolute lg:top-0 hidden lg:h-[50%] lg:flex  items-center ">
               <motion.div
@@ -65,22 +65,21 @@ const Contact = () => {
           <div className="  w-[80%] min-h-[35vh] flex lg:flex-row flex-col items-center  text-center  lg:justify-between font-secondary lg:text-left">
             <div className=" lg:w-[60%] w-[100%] flex">
               <ContactForm />
-              <div className=" min-h-[37vh] lg:w-[40%] w-[100%] flex justify-center items-center lg:items-end lg:justify-end lg:mb-4">
-                <motion.a
-                  href={googleDriveDownloadLink}
-                  target="_blank" // Abre el enlace en una nueva pestaña
-                  rel="noopener noreferrer"
-                  variants={fadeIn('left', 0.1)}
-                  initial='hidden'
-                  whileInView={'show'}
-                  viewport={{ once: false, amount: 0.7 }}
-                  className="btn lg:btn-lg btn-sm"
-                >
-                  Descargar C.V.
-                </motion.a>
-              </div>
             </div>
-
+            <div className=" min-h-[37vh]  w-[100%] flex justify-center items-center lg:items-end lg:justify-end lg:mb-4">
+              <motion.a
+                href={googleDriveDownloadLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                variants={fadeIn('left', 0.1)}
+                initial='hidden'
+                whileInView={'show'}
+                viewport={{ once: false, amount: 0.7 }}
+                className="btn  lg:btn-lg"
+              >
+                Descargar C.V.
+              </motion.a>
+            </div>
           </div>
         </div>
       </div>
