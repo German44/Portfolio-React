@@ -35,7 +35,7 @@ const Work = () => {
                 <p className="text-white font-bold text-justify text-1.5xl my-16">E-Commerce realizado con React y tailwind CSS, se usaron librerias como NextUI y TailwindUI. De base de datos se utilizo Firebase.</p>
                 <div className="flex mt-2">
                   <a
-                    href="https://github.com/German44/Vinyl-Shop.git"
+                    href="https://github.com/German44/E-Commerce-TWUI.git"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-300 hover:text-white mr-3"
@@ -43,7 +43,7 @@ const Work = () => {
                     <FaGithub size={20} />
                   </a>
                   <a
-                    href="https://vinyl-shop-phi.vercel.app/"
+                    href="https://e-commerce-twui.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-300 hover:text-white"
