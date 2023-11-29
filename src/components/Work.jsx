@@ -1,8 +1,8 @@
 import { motion } from "framer-motion"
 import { fadeIn } from "../variants"
-import Img1 from "../assets/portfolio-img1.png"
+import Img1 from "../assets/ClimaApp.png"
 import Img2 from "../assets/E-CommerceRock.png"
-import Img3 from "../assets/portfolio-img3.png"
+import Img3 from "../assets/agenda.png"
 import Img4 from "../assets/portfolio-img2.png"
 
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa"
@@ -32,7 +32,7 @@ const Work = () => {
               />
               <div className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-b from-pink-600/80 to-indigo-900/80 flex justify-center items-center flex-col text-center px-16 transform translate-y-full transition-transform duration-500 group-hover:translate-y-0">
                 <h4 className="text-white font-bold text-justify text-2xl underline">E-Commerce de Indumentaria</h4>
-                <p className="text-white font-bold text-justify text-1.5xl my-16">E-Commerce realizado con React y tailwind CSS, se usaron librerias como NextUI y TailwindUI. De base de datos se utilizo Firebase.</p>
+                <p className="text-white font-bold text-justify text-1.5xl my-16">E-Commerce realizado con React y tailwind CSS, se usaron librerias como NextUI, TailwindUI y Firebase.</p>
                 <div className="flex mt-2">
                   <a
                     href="https://github.com/German44/E-Commerce-TWUI.git"
@@ -72,11 +72,11 @@ const Work = () => {
                 className="max-w-full h-400 object-cover "
               />
               <div className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-b from-pink-600/80 to-indigo-900/80 flex justify-center items-center flex-col text-center px-16 transform translate-y-full transition-transform duration-500 group-hover:translate-y-0">
-                <h4 className="text-white text-justify font-bold text-2xl underline">Calculadora</h4>
-                <p className="text-white text-justify font-bold text-1.5xl my-16">Calculadora hecha con HTML, CSS y JavaScript</p>
+                <h4 className="text-white text-justify font-bold text-2xl underline">Clima App</h4>
+                <p className="text-white text-justify font-bold text-1.5xl my-16">Aplicacion del clima con React y tailwind CSS, se usaron librerias como Axios</p>
                 <div className="flex mt-2">
                   <a
-                    href="https://github.com/tu-usuario/tu-repositorio"
+                    href="https://github.com/German44/clima-app-vite.git"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-300 hover:text-white mr-3"
@@ -84,7 +84,7 @@ const Work = () => {
                     <FaGithub size={20} />
                   </a>
                   <a
-                    href="https://tu-enlace-externo.com"
+                    href="https://clima-app-vite.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-300 hover:text-white"
@@ -156,11 +156,11 @@ const Work = () => {
                 className="max-w-full h-400 object-cover "
               />
               <div className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-b from-pink-600/80 to-indigo-900/80 flex justify-center items-center flex-col text-center px-16 transform translate-y-full transition-transform duration-500 group-hover:translate-y-0">
-                <h4 className="text-white text-justify font-bold text-2xl underline">Calculadora</h4>
-                <p className="text-white text-justify font-bold text-1.5xl my-16">Calculadora hecha con HTML, CSS y JavaScript</p>
+                <h4 className="text-white text-justify font-bold text-2xl underline">Portfolio Personal</h4>
+                <p className="text-white text-justify font-bold text-1.5xl my-16">Portfolio hecho en React y tailwind CSS, librerias Framer Motion y React Scroll</p>
                 <div className="flex mt-2">
                   <a
-                    href="https://github.com/tu-usuario/tu-repositorio"
+                    href="https://github.com/German44/Portfolio-React.git"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-300 hover:text-white mr-3"
@@ -168,7 +168,7 @@ const Work = () => {
                     <FaGithub size={20} />
                   </a>
                   <a
-                    href="https://tu-enlace-externo.com"
+                    href="https://portfolio-react-german44.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-300 hover:text-white"
