@@ -33,7 +33,7 @@ export const WorkCards = ({ projects }) => {
                             rel="noopener noreferrer"
                             className="text-gray-300 hover:text-white mr-3"
                         >
-                            <FaGithub size={20} />
+                            <FaGithub size={30} />
                         </a>
                         <a
                             href={projects.live}
@@ -41,7 +41,7 @@ export const WorkCards = ({ projects }) => {
                             rel="noopener noreferrer"
                             className="text-gray-300 hover:text-white"
                         >
-                            <FaExternalLinkAlt size={20} />
+                            <FaExternalLinkAlt size={30} />
                         </a>
                     </div>
                 </div>
