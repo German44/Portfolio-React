@@ -5,10 +5,10 @@ import { motion } from "framer-motion"
 import { fadeIn } from "../variants"
 
 
-// Reemplaza 'ID_DEL_ARCHIVO' con el ID real de tu archivo en Google Drive
+// 'ID_DEL_ARCHIVO' de Google Drive
 const googleDriveFileId = '1LTja5061INTTENK-pJXuo0nfOeaoabEa';
 
-// Construye el enlace de descarga directa desde Google Drive
+// Enlace de descarga de Google Drive
 const googleDriveDownloadLink = `https://drive.google.com/uc?export=download&id=${googleDriveFileId}`;
 
 const Banner = () => {
