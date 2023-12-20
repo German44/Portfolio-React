@@ -4,7 +4,6 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa"
 
 export const WorkCards = ({ projects }) => {
 
-    console.log(projects)
     return (
         <motion.div
             variants={fadeIn(projects.position, 0.3)}
