@@ -6,7 +6,7 @@ const About = () => {
   return (
     <section className="min-h-[86vh] mt-9 flex items-center " id="about">
       <div className="container mx-auto">
-        <div className="min-h-[75vh] relative top-6 mt-12 flex flex-col items-center gap-4 rounded-3xl lg:flex-row lg:items-center lg:justify-around lg:gap-y-12 bg-black/20 backdrop-blur-2xl">
+        {/* <div className="min-h-[75vh] relative top-6 mt-12 flex flex-col items-center gap-4 rounded-3xl lg:flex-row lg:items-center lg:justify-around lg:gap-y-12 bg-black/20 backdrop-blur-2xl">
           <motion.article
             variants={fadeIn('right', 0.3)}
             initial='hidden'
@@ -100,7 +100,7 @@ const About = () => {
               </div>
             </div>
           </motion.article>
-        </div>
+        </div> */}
       </div>
     </section >
   )

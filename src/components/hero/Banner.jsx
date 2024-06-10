@@ -1,9 +1,9 @@
 
-import Image from "../assets/ger1.jpg"
+/* import Image from "../assets/ger1.jpg"
 import { TypeAnimation } from "react-type-animation"
 import { motion } from "framer-motion"
 import { fadeIn } from "../variants"
-
+ */
 
 // 'ID_DEL_ARCHIVO' de Google Drive
 const googleDriveFileId = '1LTja5061INTTENK-pJXuo0nfOeaoabEa';
@@ -15,7 +15,8 @@ const Banner = () => {
   return (
     <section className="min-h-[86vh] mt-[150px]" id="home">
       <div className="container mx-auto">
-        <div className="flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-y-12">
+        
+        {/* <div className="flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-y-12">
           <div className="flex-1 text-center font-secondary lg:text-left ">
             <motion.h1
               variants={fadeIn('up', 0.3)}
@@ -76,7 +77,7 @@ const Banner = () => {
             className="hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px] mx-auto">
             <img src={Image} alt="" />
           </motion.div>
-        </div>
+        </div> */}
       </div>
     </section>);
 };
