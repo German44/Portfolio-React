@@ -1,4 +1,3 @@
-
 /* import Image from "../assets/ger1.jpg"
 import { TypeAnimation } from "react-type-animation"
 import { motion } from "framer-motion"
@@ -6,16 +5,18 @@ import { fadeIn } from "../variants"
  */
 
 // 'ID_DEL_ARCHIVO' de Google Drive
-const googleDriveFileId = '1LTja5061INTTENK-pJXuo0nfOeaoabEa';
+const googleDriveFileId = "1LTja5061INTTENK-pJXuo0nfOeaoabEa";
 
 // Enlace de descarga de Google Drive
 const googleDriveDownloadLink = `https://drive.google.com/uc?export=download&id=${googleDriveFileId}`;
 
 const Banner = () => {
   return (
-    <section className="min-h-[86vh] mt-[150px]" id="home">
-      <div className="container mx-auto">
-        
+    <section className="min-h-[85vh] bg-white/20  backdrop-blur-2xl" id="home">
+      <div className="container mx-auto h-full">
+        <div className="flex flex-col w-full h-[90%]  bg-slate-100">
+          1
+        </div>
         {/* <div className="flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-y-12">
           <div className="flex-1 text-center font-secondary lg:text-left ">
             <motion.h1
@@ -79,7 +80,8 @@ const Banner = () => {
           </motion.div>
         </div> */}
       </div>
-    </section>);
+    </section>
+  );
 };
 
 export default Banner;

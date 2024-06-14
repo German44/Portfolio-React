@@ -1,7 +1,7 @@
-import { motion } from "framer-motion"
-import { fadeIn } from "../variants"
+/* import { motion } from "framer-motion"
+import { fadeIn } from "../../utils/variants"
 import image from "../assets/ger.jpg"
-
+ */
 const About = () => {
   return (
     <section className="min-h-[86vh] mt-9 flex items-center " id="about">

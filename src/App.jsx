@@ -1,11 +1,11 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import About from '../src/components/About'
-import Banner from '../src/components/Banner'
-import Contact from '../src/components/Contact'
-import Header from '../src/components/Header'
-import Work from '../src/components/Work'
+import About from '../src/components/about/About'
+import Banner from '../src/components/hero/Banner'
+import Contact from '../src/components/contact/Contact'
+import Header from '../src/components/header/Header'
+import Work from '../src/components/works/Work'
 import './App.css'
-import NavBar from './components/NavBar'
+import NavBar from './components/navbar/NavBar'
 
 function App() {
   // bg-site bg-no-repeat bg-cover overflow-hidden

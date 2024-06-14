@@ -1,5 +1,5 @@
 import { motion } from "framer-motion"
-import { fadeIn } from "../variants"
+import { fadeIn } from "../../utils/variants"
 import ContactForm from "./ContactForm";
 
 
