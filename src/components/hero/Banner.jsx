@@ -1,84 +1,41 @@
-/* import Image from "../assets/ger1.jpg"
-import { TypeAnimation } from "react-type-animation"
-import { motion } from "framer-motion"
-import { fadeIn } from "../variants"
- */
+import DividerTag from "../dividerTag/DividerTag";
 
 // 'ID_DEL_ARCHIVO' de Google Drive
-const googleDriveFileId = "1LTja5061INTTENK-pJXuo0nfOeaoabEa";
+const googleDriveFileId = "1rjmihF8GRWkFVuWNQJoPK6_yYNmzdDBX";
 
 // Enlace de descarga de Google Drive
 const googleDriveDownloadLink = `https://drive.google.com/uc?export=download&id=${googleDriveFileId}`;
 
 const Banner = () => {
   return (
-    <section className="min-h-[85vh] bg-white/20  backdrop-blur-2xl" id="home">
-      <div className="container mx-auto h-full">
-        <div className="flex flex-col w-full h-[90%]  bg-slate-100">
-          1
-        </div>
-        {/* <div className="flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-y-12">
-          <div className="flex-1 text-center font-secondary lg:text-left ">
-            <motion.h1
-              variants={fadeIn('up', 0.3)}
-              initial='hidden'
-              whileInView={'show'}
-              viewport={{ once: false, amount: 0.7 }}
-              className="text-[50px] font-bold leading-[0.8] lg:text-[100px]">GERMAN <span>RAVAROTTO </span>
-            </motion.h1>
-            <motion.div
-              variants={fadeIn('up', 0.5)}
-              initial='hidden'
-              whileInView={'show'}
-              viewport={{ once: false, amount: 0.7 }}
-              className="mb-6 text-[36px] lg:text-[60px] font-secondary font font-semibold uppercase leading-[1]">
-              <span className="mr-4">Soy </span>
-              <TypeAnimation
-                sequence={[
-                  'Desarrolador',
-                  2000,
-                  'Artista',
-                  2000,
-                  'Creativo',
-                  2000,
-                  'Musico',
-                  2000,
-                ]}
-                speed={50}
-                className="text-accent"
-                wrapper="span"
-                repeat={Infinity}
-              />
-            </motion.div>
-            <motion.p
-              variants={fadeIn('up', 0.7)}
-              initial='hidden'
-              whileInView={'show'}
-              viewport={{ once: false, amount: 0.7 }}
-              className="mb-8 max-w-lg mx-auto lg:mx-0">
-              ¡Bienvenido a mi portfolio, donde podrás explorar mi trabajo y mi dedicación por el desarrollo web!
-            </motion.p>
-            <motion.a
-              href={googleDriveDownloadLink}
-              target="_blank"
-              rel="noopener noreferrer"
-              variants={fadeIn('left', 0.2)}
-              initial='hidden'
-              whileInView={'show'}
-              viewport={{ once: false, amount: 0.7 }}
-              className="btn btn-lg"
-            >
-              Descargar C.V.
-            </motion.a>
+    <section className="min-h-[100vh] " id="home">
+      <div className="container mx-auto min-h-[100vh] bg-black/20 backdrop-blur-2xl rounded-xl  flex items-center">
+        <div className="flex flex-col w-full h-full  gap-y-6 p-8">
+          {/* <DividerTag tag="Home" /> */}
+          <div className="flex-grow">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-bold text-white font-primary">
+              UX-UI DESIGNER
+            </h1>
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-bold text-white font-primary">
+              FRONTEND DEVELOPER
+            </h1>
+            <p className="text-xl sm:text-xl md:text-2xl lg:text-3xl text-white font-secondary mt-4">
+              As a creative UX/UI Designer and Frontend Developer, I excel at
+              crafting disruptive, user-centric digital experiences. My
+              problem-solving approach ensures seamless integration of design
+              and functionality, transforming innovative concepts into
+              responsive, high-performing websites and applications.
+            </p>
           </div>
-          <motion.div
-            variants={fadeIn('down', 0.5)}
-            initial='hidden'
-            whileInView={'show'}
-            className="hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px] mx-auto">
-            <img src={Image} alt="" />
-          </motion.div>
-        </div> */}
+          <div className="flex justify-start items-center  p-4">
+            <button
+              className="btn btn-primary"
+              onClick={() => window.open(googleDriveDownloadLink, "_blank")}
+            >
+              Download C.V.
+            </button>
+          </div>
+        </div>
       </div>
     </section>
   );
