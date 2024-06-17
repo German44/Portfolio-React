@@ -22,7 +22,7 @@ function App() {
       <NavBar />
       <About />
       <Work />
-      <Contact />
+      {/* <Contact /> */}
       <div className='h-[135px]'></div>
     </div>
   )

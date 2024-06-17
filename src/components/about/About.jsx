@@ -12,7 +12,7 @@ const About = () => {
   return (
     <>
       <section
-        className="min-h-[85vh] mt-9 flex flex-col w-full items-center"
+        className="min-h-[100vh] mt-9  flex flex-col w-full items-center"
         id="about"
       >
         <DividerTag tag="About" />
