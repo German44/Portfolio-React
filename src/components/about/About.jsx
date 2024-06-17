@@ -1,4 +1,12 @@
 import DividerTag from "../dividerTag/DividerTag";
+import { FaHtml5 } from "react-icons/fa";
+import { FaCss3 } from "react-icons/fa";
+import { FaJs } from "react-icons/fa";
+import { FaReact } from "react-icons/fa";
+import { FaGitAlt } from "react-icons/fa";
+import { FaFigma } from "react-icons/fa";
+import { SiAdobephotoshop } from "react-icons/si";
+import { FaGithub } from "react-icons/fa";
 
 const About = () => {
   return (
@@ -14,15 +22,19 @@ const About = () => {
               <div className="w-full sm:w-1/2 min-h-[35vh] sm:min-h-[70vh]  flex justify-center items-center">
                 <div className="w-full sm:w-[90%] min-h-[35vh] sm:min-h-[65vh]  flex flex-col justify-center items-center">
                   <div className=" w-full min-h-[5vh] sm:min-h-[10vh] flex justify-center items-end ">
-                    <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-[44px] font-bold text-white font-primary text-center">
-                      Hello I'm German
+                    <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-white font-primary text-center">
+                      Fusion of Design, and Art
                     </h2>
                   </div>
                   <div className=" w-full min-h-[40vh] sm:min-h-[60vh] flex justify-center items-center ">
-                    <p className="min-h-[30vh] sm:min-h-[50vh] text-xl sm:text-2xl md:text-3xl lg:text-[44px] m-2 text-white font-secondary text-justify">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Repudiandae expedita animi veniam nam fugiat neque ea
-                      distinctio harum magni officia.
+                    <p className="min-h-[30vh] ext-xl sm:text-xl md:text-2xl lg:text-3xl text-white font-secondary m-2 text-justify">
+                      Hi, I’m German Ravarotto from Argentina UX/UI Designer and
+                      Frontend Developer with an background as a jewelry artist,
+                      electronic technician, and musician. My designs blend
+                      creativity with problem-solving to create innovative
+                      digital experiences. I love crafting new things and
+                      bringing them to life through responsive, high-performance
+                      websites and applications.
                     </p>
                   </div>
                 </div>
@@ -33,23 +45,39 @@ const About = () => {
                     Skills & Tools
                   </h2>
                 </div>
-                <div className=" w-full min-h-[40vh] sm:min-h-[65vh] flex justify-center items-center  ">
+                <div className=" w-full min-h-[40vh] sm:min-h-[65vh] flex justify-center items-center m-4 ">
                   <div className=" w-[90%] min-h-[30vh] sm:min-h-[60vh] grid grid-cols-3 grid-rows-5 gap-4 ">
-                    <div className="bg-red-700 rounded-xl">1</div>
-                    <div>2</div>
-                    <div className="bg-red-700 rounded-xl">3</div>
-                    <div>4</div>
-                    <div className="bg-red-700 rounded-xl">5</div>
-                    <div>6</div>
-                    <div className="bg-red-700 rounded-xl">7</div>
-                    <div>8</div>
-                    <div className="bg-red-700 rounded-xl">9</div>
-                    <div>10</div>
-                    <div className="bg-red-700 rounded-xl">11</div>
-                    <div>12</div>
-                    <div className="bg-red-700 rounded-xl">13</div>
-                    <div>14</div>
-                    <div className="bg-red-700 rounded-xl">15</div>
+                    <div className="border-2 border-white rounded-xl flex justify-center items-center ">
+                      <FaHtml5 size={100} color="white" />
+                    </div>
+                    <div></div>
+                    <div className="border-2 border-white rounded-xl flex justify-center items-center ">
+                      <FaCss3 size={100} color="white" />
+                    </div>
+                    <div></div>
+                    <div className="border-2 border-white rounded-xl flex justify-center items-center ">
+                      <FaJs size={100} color="white" />
+                    </div>
+                    <div></div>
+                    <div className="border-2 border-white rounded-xl flex justify-center items-center ">
+                      <FaReact size={100} color="white" />
+                    </div>
+                    <div></div>
+                    <div className="border-2 border-white rounded-xl flex justify-center items-center ">
+                      <FaGitAlt size={100} color="white" />
+                    </div>
+                    <div></div>
+                    <div className="border-2 border-white rounded-xl flex justify-center items-center ">
+                      <FaFigma size={90} color="white" />
+                    </div>
+                    <div></div>
+                    <div className="border-2 border-white rounded-xl flex justify-center items-center ">
+                      <SiAdobephotoshop size={90} color="white" />
+                    </div>
+                    <div></div>
+                    <div className="border-2 border-white rounded-xl flex justify-center items-center ">
+                      <FaGithub size={90} color="white" />
+                    </div>
                   </div>
                 </div>
               </div>
