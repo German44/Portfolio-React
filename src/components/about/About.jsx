@@ -19,7 +19,7 @@ const About = () => {
                     </h2>
                   </div>
                   <div className=" w-full min-h-[40vh] sm:min-h-[60vh] flex justify-center items-center ">
-                    <p className="text-xl sm:text-2xl md:text-3xl lg:text-[44px]  text-white font-secondary text-justify">
+                    <p className="min-h-[30vh] sm:min-h-[50vh] text-xl sm:text-2xl md:text-3xl lg:text-[44px] m-2 text-white font-secondary text-justify">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Repudiandae expedita animi veniam nam fugiat neque ea
                       distinctio harum magni officia.
