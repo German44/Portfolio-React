@@ -6,14 +6,14 @@ export const WorkCards = ({ projects }) => {
   console.log(projects);
   return (
     <>
-      <div className=" h-[340px]  rounded-lg overflow-hidden flex flex-col justify-center items-center">
+      <div className="h-[500px] sm:h-[340px]  rounded-lg overflow-hidden flex flex-col sm:justify-center items-center ">
         <div className="w-[95%] h-[10%] ">
           <h2 className="text-white font-bold  text-justify text-2xl underline">
-            {projects.name}
+            {projects.type}
           </h2>
         </div>
-        <div className="w-[95%] h-[70%] m-4  bg-black/50 rounded-xl flex justify-between items-center">
-          <div className="w-[50%] h-[90%] m-2   rounded-xl">
+        <div className="w-[95%] h-[100%] sm:w-[95%] sm:h-[70%] m-4  bg-black/50 rounded-xl flex flex-col sm:flex-row justify-between items-center">
+          <div className="w-full sm:w-[50%] h-[50%] sm:h-[90%] m-2  rounded-xl">
             <div className="w-full h-full   flex flex-col justify-around">
               <h4 className="text-white font-bold  text-justify text-3xl ">
                 {projects.name}
@@ -39,8 +39,8 @@ export const WorkCards = ({ projects }) => {
               </div>
             </div>
           </div>
-          <div className="w-[50%] h-[90%] m-2">
-            <div className="w-full h-[140%] relative -top-20  rounded-xl  hover:scale-x-105  transition duration-300 ">
+          <div className="w-full h-[280px]   sm:w-[50%]  sm:h-[90%] m-2">
+            <div className="w-full h-[140%] sm:relative sm:-top-20  rounded-xl  hover:scale-x-105  transition duration-300 ">
               <img
                 className="w-full h-full object-cover rounded-xl border-4 border-black hover:border-white transition duration-300"
                 src={projects.image}

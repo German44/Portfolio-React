@@ -6,6 +6,7 @@ import Contact from '../src/components/contact/Contact'
 import Work from '../src/components/works/Work'
 import './App.css'
 import NavBar from './components/navbar/NavBar'
+import Footer from './components/footer/Footer'
 
 
 function App() {
@@ -22,8 +23,9 @@ function App() {
       <NavBar />
       <About />
       <Work />
-      {/* <Contact /> */}
-      <div className='h-[135px]'></div>
+      <Contact />
+      <Footer />
+      {/* <div className='h-[135px]'></div> */}
     </div>
   )
 }

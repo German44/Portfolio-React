@@ -3,6 +3,7 @@
 [
   {
     "id": 1,
+    "type": "Frontend",
     "name": "ClimaApp",
     "image": "../public/pictures/ClimaApp.png",
     "github": "https://github.com/German44/clima-app-vite.git",
@@ -12,6 +13,7 @@
   },
   {
     "id": 2,
+    "type": "Frontend",
     "name": "E-CommerceRock",
     "image": "../public/pictures/E-CommerceRock.png",
     "github": "https://github.com/German44/E-Commerce-TWUI.git",
@@ -21,6 +23,7 @@
   },
   {
     "id": 3,
+    "type": "Frontend",
     "name": "Agenda",
     "image": "../public/pictures/agenda.png",
     "github": "https://github.com/German44/Proyecto-final-JavaScript.git",
@@ -30,11 +33,22 @@
   },
   {
     "id": 4,
+    "type": "Frontend",
     "name": "Portfolio",
     "image": "../public/pictures/portfolio-img2.png",
     "github": "https://github.com/German44/Portfolio-React.git",
     "live": "https://portfolio-react-german44.vercel.app/",
     "position": "left",
     "description": "Portfolio personal hecho en React y tailwind CSS, librerias Framer Motion y React Scroll"
+  },
+  {
+    "id": 5,
+    "type": "UX/UI",
+    "name": "Redesing Ecommerce",
+    "image": "../public/pictures/ArgentumDesing.png",
+    "github": "https://github.com/German44/Portfolio-React.git",
+    "live": "https://portfolio-react-german44.vercel.app/",
+    "position": "right",
+    "description": "Rediseno de Ecommerce de Joyeria"
   }
 ]

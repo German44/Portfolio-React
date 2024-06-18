@@ -48,7 +48,7 @@ const Work = () => {
     >
       <DividerTag tag="Works" />
       <div className="container mx-auto min-h-[82vh] bg-black/20 backdrop-blur-2xl rounded-xl flex items-center">
-        <div className="min-h-[82vh] w-full">
+        <div className="min-h-[82vh] w-full flex flex-col gap-6">
           {projects.map((projects) => {
             return <WorkCards key={projects.id} projects={projects} />;
           })}
