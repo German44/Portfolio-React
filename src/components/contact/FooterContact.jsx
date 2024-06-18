@@ -4,7 +4,7 @@ const FooterContact = () => {
   return (
     <>
       <div className="w-full h-[10vh] bg-black/50">
-        <div className="w-full sm:w-1/3 h-full flex justify-center items-center ">
+        <div className="w-full  h-full flex justify-end items-center ">
           <div className="flex text-[18px] lg:text-[40px] gap-x-5  sm:gap-x-8 max-w-max mx-auto lg:mx-0 items-center">
             <a
               className="social_links"
