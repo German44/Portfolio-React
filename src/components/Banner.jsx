@@ -1,5 +1,5 @@
 
-import Image from "../assets/ger1.jpg"
+import Image from "../assets/under.png"
 import { TypeAnimation } from "react-type-animation"
 import { motion } from "framer-motion"
 import { fadeIn } from "../variants"

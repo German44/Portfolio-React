@@ -1,6 +1,6 @@
 import { motion } from "framer-motion"
 import { fadeIn } from "../variants"
-import image from "../assets/ger.jpg"
+import image from "../assets/under.png"
 
 const About = () => {
   return (
