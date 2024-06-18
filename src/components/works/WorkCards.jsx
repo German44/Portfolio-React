@@ -3,7 +3,6 @@
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 export const WorkCards = ({ projects }) => {
-  console.log(projects);
   return (
     <>
       <div className="h-[500px] sm:h-[340px]  rounded-lg overflow-hidden flex flex-col sm:justify-center items-center ">
