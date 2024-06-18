@@ -20,13 +20,16 @@
     padding: 15px 60px;
     border-radius: 62px;
     background-color: var(--color-primario);
-    box-shadow: 0 0 1rem var(--color-primario);
-    text-shadow: 0 0 1rem var(--color-3);
+    box-shadow: none;
+    text-shadow: none;
+    border: #0D0D0D solid 3px;
+    
 }
 
 .btn:hover {
-    box-shadow: none;
-    text-shadow: none;
+    box-shadow: 0 0 1rem var(--color-primario);
+    text-shadow: 0 0 1rem var(--color-3);
+
     transition: 0.5s ease;
 }
 
