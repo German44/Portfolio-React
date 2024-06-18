@@ -1,13 +1,8 @@
+import { WorkCards } from "./WorkCards";
+import projects from "../../data/projects.json";
+import DividerTag from "../dividerTag/DividerTag";
 
-import Img1 from "../assets/ClimaApp.png"
-import Img2 from "../assets/E-CommerceRock.png"
-import Img3 from "../assets/agenda.png"
-import Img4 from "../assets/portfolio-img2.png"
-import { WorkCards } from "./WorkCards"
-
-
-
-const projects = [
+/* const projects = [
   {
     id: 1,
     name: "ClimaApp",
@@ -43,24 +38,25 @@ const projects = [
   }
 ]
 
-
+ */
 const Work = () => {
+  
   return (
-    <section id="work" className="min-h-[86vh] mt-9 flex items-center">
-      <div className="container mx-auto">
-        <div className="min-h-[75vh] w-full relative top-6  bg-black/20 backdrop-blur-2xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 mt-12">
-          {
-            projects.map((projects) => {
-              return (
-                <WorkCards key={projects.id} projects={projects} />
-              )
-            })
-          }
+    <section
+      id="work"
+      className="min-h-[100vh] mt-9 flex items-center flex-col"
+    >
+      <DividerTag tag="Works" />
+      <div className="container mx-auto min-h-[82vh] bg-black/20 backdrop-blur-2xl rounded-xl flex items-center">
+        <div className="min-h-[82vh] w-full flex flex-col gap-6">
+          {projects.map((projects) => {
+            return <WorkCards key={projects.id} projects={projects} />;
+          })}
+          {/* <WorkCards projects={projects} /> */}
         </div>
       </div>
-    </section >
+    </section>
   );
 };
 
 export default Work;
-

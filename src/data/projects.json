@@ -1,0 +1,54 @@
+
+
+[
+  {
+    "id": 1,
+    "type": "Frontend",
+    "name": "ClimaApp",
+    "image": "../public/pictures/ClimaApp.png",
+    "github": "https://github.com/German44/clima-app-vite.git",
+    "live": "https://clima-app-vite.vercel.app/",
+    "position": "right",
+    "description": "ClimaApp es una aplicacion que permite visualizar datos climáticos de una ciudad. Se utilizo React, Tailwind, OpenWeatherMap para el desarrollo de usuario"
+  },
+  {
+    "id": 2,
+    "type": "Frontend",
+    "name": "E-CommerceRock",
+    "image": "../public/pictures/E-CommerceRock.png",
+    "github": "https://github.com/German44/E-Commerce-TWUI.git",
+    "live": "https://e-commerce-twui.vercel.app/",
+    "position": "left",
+    "description": "E-Commerce realizado con React y tailwind CSS, se usaron librerias como NextUI, TailwindUI y Firebase."
+  },
+  {
+    "id": 3,
+    "type": "Frontend",
+    "name": "Agenda",
+    "image": "../public/pictures/agenda.png",
+    "github": "https://github.com/German44/Proyecto-final-JavaScript.git",
+    "live": "https://german44.github.io/Proyecto-final-JavaScript/",
+    "position": "right",
+    "description": "Agenda de clientes hecha con HTML, CSS y JavaScript puros"
+  },
+  {
+    "id": 4,
+    "type": "Frontend",
+    "name": "Portfolio",
+    "image": "../public/pictures/portfolio-img2.png",
+    "github": "https://github.com/German44/Portfolio-React.git",
+    "live": "https://portfolio-react-german44.vercel.app/",
+    "position": "left",
+    "description": "Portfolio personal hecho en React y tailwind CSS, librerias Framer Motion y React Scroll"
+  },
+  {
+    "id": 5,
+    "type": "UX/UI",
+    "name": "Redesing Ecommerce",
+    "image": "../public/pictures/ArgentumDesing.png",
+    "github": "https://github.com/German44/Portfolio-React.git",
+    "live": "https://portfolio-react-german44.vercel.app/",
+    "position": "right",
+    "description": "Rediseno de Ecommerce de Joyeria"
+  }
+]

@@ -45,7 +45,7 @@ const ContactForm = () => {
                     name="nombre"
                     value={formData.nombre}
                     onChange={handleChange}
-                    placeholder='Nombre'
+                    placeholder='Name'
                     className="w-full px-3 py-2 border-b-2 rounded-xl bg-black/30 focus:outline-none focus:border-accent"
                 />
             </div>
@@ -68,7 +68,7 @@ const ContactForm = () => {
                 <textarea
                     id="message"
                     name="message"
-                    placeholder='   Mensaje'
+                    placeholder='Message'
                     value={formData.message}
                     onChange={handleChange}
                     className="w-full px-3 py-2 border-b-2 rounded-xl bg-black/30 focus:outline-none focus:border-accent"
