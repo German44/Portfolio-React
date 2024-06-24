@@ -46,9 +46,9 @@
     "type": "UX/UI Designer",
     "name": "Redesing Ecommerce",
     "image": "../pictures/ArgentumDesing.png",
-    "github": "https://github.com/German44/Portfolio-React.git",
-    "live": "https://portfolio-react-german44.vercel.app/",
+    "figma": "https://www.figma.com/proto/ABZZW7BswXtqPX9Fwh9GGs/Argentum-Tienda?node-id=0-1&t=suiHiboGBebnDQvv-1",
+    "behance": "https://portfolio-react-german44.vercel.app/",
     "position": "right",
-    "description": "Rediseno de Ecommerce de Joyeria"
+    "description": "Rediseño de Ecommerce de Joyeria Argentum Joyas, utilizando patrones de diseño y leyes"
   }
 ]
