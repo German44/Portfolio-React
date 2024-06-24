@@ -30,7 +30,7 @@ const About = () => {
                     <p className="min-h-[30vh] ext-xl sm:text-xl md:text-2xl lg:text-3xl text-white font-secondary m-2 text-justify">
                       Hi, I’m German Ravarotto from Argentina UX/UI Designer and
                       Frontend Developer with an background as a jewelry artist,
-                      electronic technician, and musician. My designs blend
+                      electronic technician. My designs blend
                       creativity with problem-solving to create innovative
                       digital experiences. I love crafting new things and
                       bringing them to life through responsive, high-performance
