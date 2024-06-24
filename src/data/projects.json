@@ -3,17 +3,17 @@
 [
   {
     "id": 1,
-    "type": "Frontend",
+    "type": "Frontend Developer",
     "name": "ClimaApp",
     "image": "../pictures/ClimaApp.png",
     "github": "https://github.com/German44/clima-app-vite.git",
     "live": "https://clima-app-vite.vercel.app/",
     "position": "right",
-    "description": "ClimaApp es una aplicacion que permite visualizar datos climáticos de una ciudad. Se utilizo React, Tailwind, OpenWeatherMap para el desarrollo de usuario"
+    "description": "ClimaApp is an application that allows you to view climate data for a city. React, Tailwind and the OpenWeatherMap API were used."
   },
   {
     "id": 2,
-    "type": "Frontend",
+    "type": "Frontend Developer",
     "name": "E-CommerceRock",
     "image": "../pictures/E-CommerceRock.png",
     "github": "https://github.com/German44/E-Commerce-TWUI.git",
@@ -23,7 +23,7 @@
   },
   {
     "id": 3,
-    "type": "Frontend",
+    "type": "Frontend Developer",
     "name": "Agenda",
     "image": "../pictures/agenda.png",
     "github": "https://github.com/German44/Proyecto-final-JavaScript.git",
@@ -33,7 +33,7 @@
   },
   {
     "id": 4,
-    "type": "Frontend",
+    "type": "Frontend Developer",
     "name": "Portfolio",
     "image": "../pictures/portfolio-img2.png",
     "github": "https://github.com/German44/Portfolio-React.git",
@@ -43,7 +43,7 @@
   },
   {
     "id": 5,
-    "type": "UX/UI",
+    "type": "UX/UI Designer",
     "name": "Redesing Ecommerce",
     "image": "../pictures/ArgentumDesing.png",
     "github": "https://github.com/German44/Portfolio-React.git",
