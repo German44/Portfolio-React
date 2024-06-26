@@ -4,6 +4,7 @@ import {
   FaFigma,
   FaBehance,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 export const WorkCards = ({ projects }) => {
   /* console.log(projects) */
@@ -21,7 +22,7 @@ export const WorkCards = ({ projects }) => {
               {projects.name}
             </h4>
             <p className="text-justify m-2 text-xl">{projects.description}</p>
-            <div className="flex mt-2">
+            <div className="flex mt-2  items-center gap-4">
               {projects.type === "Frontend Developer" ? (
                 <>
                   <a
@@ -55,10 +56,13 @@ export const WorkCards = ({ projects }) => {
                     href={projects.behance}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-gray-300 hover:text-accent hover:scale-105 transition duration-300"
+                    className="text-gray-300 hover:text-accent hover:scale-105  mr-4 transition duration-300"
                   >
                     <FaBehance size={40} />
                   </a>
+                  <Link to="/work/CaseStudyPage">
+                  <h3 className="text-gray-300 text-xl hover:text-accent hover:scale-105 transition duration-300 text-bold">View Case Study</h3>
+                  </Link>
                 </>
               )}
             </div>

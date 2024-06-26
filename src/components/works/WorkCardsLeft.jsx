@@ -4,6 +4,7 @@ import {
   FaFigma,
   FaBehance,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 export const WorkCardsleft = ({ projects }) => {
   /* console.log(projects) */
@@ -68,6 +69,9 @@ export const WorkCardsleft = ({ projects }) => {
                   >
                     <FaBehance size={40} />
                   </a>
+                  <Link to="/work/CaseStudyPage">
+                  <h3 className="text-gray-300 text-xl hover:text-accent hover:scale-105 transition duration-300 text-bold">View Case Study</h3>
+                  </Link>
                 </>
               )}
             </div>
