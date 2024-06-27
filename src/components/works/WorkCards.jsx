@@ -60,8 +60,11 @@ export const WorkCards = ({ projects }) => {
                   >
                     <FaBehance size={40} />
                   </a>
-                  <Link to="/work/CaseStudyPage">
-                  <h3 className="text-gray-300 text-xl hover:text-accent hover:scale-105 transition duration-300 text-bold">View Case Study</h3>
+                  <Link
+                    to="/CaseStudy"
+                    className="text-gray-300 text-xl hover:text-accent hover:scale-105 transition duration-300 text-bold"
+                  >
+                    Case Study
                   </Link>
                 </>
               )}

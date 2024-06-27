@@ -1,15 +1,16 @@
-import HeaderCaseStudy from "../components/header/HeaderCaseStudy";
+import AboutCaseStudy from "../components/about/AboutCaseStudy";
+import DesignProcess from "../components/designProcess/DesignProcess";
+import Final from "../components/final/Final";
+import NavBarCaseStudy from "../components/navbar/NavBarCaseStudy";
+
+
 const CaseStudyPage = () => {
   return (
     <>
-      <div className="w-full min-h-screen">
-        <HeaderCaseStudy />
-        <div className=" bg-black/50 backdrop-blur-2xl  container mx-auto w-full min-h-screen">
-          <h1 className="text-white text-3xl font-bold font-primary text-center mt-20">
-            Case Study Page
-          </h1>
-        </div>
-      </div>
+      <NavBarCaseStudy />
+      <AboutCaseStudy />
+      <DesignProcess/>
+      <Final/>
     </>
   );
 };
