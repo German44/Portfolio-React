@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "title": "Define",
+    "color": "bg-red-400/80",
+    "hover": "bg-red-400"
+  },
+  {
+    "id": 2,
+    "title": "Empathize",
+    "color": "bg-orange-400/80",
+    "hover": "bg-orange-400"
+  },
+  {
+    "id": 3,
+    "title": "Ideate",
+    "color": "bg-yellow-400/80",
+    "hover": "bg-yellow-400"
+  },
+  {
+    "id": 4,
+    "title": "Design",
+    "color": "bg-lime-400/80",
+    "hover": "bg-lime-400"
+  },
+  {
+    "id": 5,
+    "title": "Prototype",
+    "color": "bg-emerald-400/80",
+    "hover": "bg-emerald-400"
+  }
+]
+

@@ -1,40 +1,10 @@
 import DividerTag from "../dividerTag/DividerTag";
 import Process from "./Process";
 import Sphere from "./Sphere";
-/* import { Link as LinkScroll } from "react-scroll/modules"; */
+import sphereData from "../../data/sphereData.json";
+import processData from "../../data/processData.json";  
 
-const sphereData = [
-  {
-    id: 1,
-    title: "Define",
-    color: "bg-red-400/80",
-    hover: "bg-red-400",
-  },
-  {
-    id: 2,
-    title: "Empathize",
-    color: "bg-orange-400/80",
-    hover: "bg-orange-400",
-  },
-  {
-    id: 3,
-    title: "Ideate",
-    color: "bg-yellow-400/80",
-    hover: "bg-yellow-400",
-  },
-  {
-    id: 4,
-    title: "Design",
-    color: "bg-lime-400/80",
-    hover: "bg-lime-400",
-  },
-  {
-    id: 5,
-    title: "Prototype",
-    color: "bg-emerald-400/80",
-    hover: "bg-emerald-400",
-  },
-];
+
 
 const DesignProcess = () => {
   return (
@@ -72,61 +42,14 @@ const DesignProcess = () => {
                 repudiandae. Necessitatibus, ullam?
               </p>
             </div>
-            <Process
-              title="Define"
-              content=" Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Explicabo nisi facilis autem asperiores consequatur cum minus
-                molestiae! Commodi nostrum minus consequuntur, rem consequatur
-                quisquam, consectetur tempore totam tempora eos non ipsa fugiat
-                fuga ipsum ratione culpa asperiores, numquam sunt quod
-                voluptatum doloremque veritatis eaque. Sed quam eaque
-                repudiandae. Necessitatibus, ullam?"
-              image="/public/pictures/portfolio-img2.png"
-            />
-            <Process
-              title="Empathize"
-              content=" Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Explicabo nisi facilis autem asperiores consequatur cum minus
-                molestiae! Commodi nostrum minus consequuntur, rem consequatur
-                quisquam, consectetur tempore totam tempora eos non ipsa fugiat
-                fuga ipsum ratione culpa asperiores, numquam sunt quod
-                voluptatum doloremque veritatis eaque. Sed quam eaque
-                repudiandae. Necessitatibus, ullam?"
-              image="/public/pictures/portfolio-img2.png"
-            />
-            <Process
-              title="Ideate"
-              content=" Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Explicabo nisi facilis autem asperiores consequatur cum minus
-                molestiae! Commodi nostrum minus consequuntur, rem consequatur
-                quisquam, consectetur tempore totam tempora eos non ipsa fugiat
-                fuga ipsum ratione culpa asperiores, numquam sunt quod
-                voluptatum doloremque veritatis eaque. Sed quam eaque
-                repudiandae. Necessitatibus, ullam?"
-              image="/public/pictures/portfolio-img2.png"
-            />
-            <Process
-              title="Design"
-              content=" Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Explicabo nisi facilis autem asperiores consequatur cum minus
-                molestiae! Commodi nostrum minus consequuntur, rem consequatur
-                quisquam, consectetur tempore totam tempora eos non ipsa fugiat
-                fuga ipsum ratione culpa asperiores, numquam sunt quod
-                voluptatum doloremque veritatis eaque. Sed quam eaque
-                repudiandae. Necessitatibus, ullam?"
-              image="/public/pictures/portfolio-img2.png"
-            />
-            <Process
-              title="Prototype"
-              content=" Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Explicabo nisi facilis autem asperiores consequatur cum minus
-                molestiae! Commodi nostrum minus consequuntur, rem consequatur
-                quisquam, consectetur tempore totam tempora eos non ipsa fugiat
-                fuga ipsum ratione culpa asperiores, numquam sunt quod
-                voluptatum doloremque veritatis eaque. Sed quam eaque
-                repudiandae. Necessitatibus, ullam?"
-              image="/public/pictures/portfolio-img2.png"
-            />
+            {processData.map((process) => (
+              <Process
+                key={process.id}
+                title={process.title}
+                content={process.content}
+                image={process.image}
+              />
+            ))}
           </div>
         </div>
       </section>
