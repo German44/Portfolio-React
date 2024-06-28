@@ -31,14 +31,14 @@ export const WorkCardsleft = ({ projects }) => {
               {projects.name}
             </h4>
             <p className="text-justify m-2 text-xl">{projects.description}</p>
-            <div className="flex sm:justify-end mt-2">
+            <div className="flex sm:justify-end mt-2 items-center">
               {projects.type === "Frontend Developer" ? (
                 <>
                   <a
                     href={projects.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-gray-300 hover:text-accent mr-4 hover:scale-105 transition duration-300"
+                    className="text-gray-300 hover:text-accent mr-8 hover:scale-105 transition duration-300"
                   >
                     <FaGithub size={40} />
                   </a>
@@ -57,7 +57,7 @@ export const WorkCardsleft = ({ projects }) => {
                     href={projects.figma}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-gray-300 hover:text-accent mr-4 hover:scale-105 transition duration-300"
+                    className="text-gray-300 hover:text-accent mr-8 hover:scale-105 transition duration-300"
                   >
                     <FaFigma size={40} />
                   </a>
@@ -65,13 +65,13 @@ export const WorkCardsleft = ({ projects }) => {
                     href={projects.behance}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-gray-300 hover:text-accent hover:scale-105 transition duration-300"
+                    className="text-gray-300 hover:text-accent mr-8 hover:scale-105 transition duration-300"
                   >
                     <FaBehance size={40} />
                   </a>
                   <Link
                     to="/CaseStudy"
-                    className="text-gray-300 text-xl hover:text-accent hover:scale-105 transition duration-300 text-bold"
+                    className="text-gray-300 text-xl  hover:text-accent hover:scale-105 transition duration-300 text-bold"
                   >
                     Case Study
                   </Link>

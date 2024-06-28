@@ -79,7 +79,7 @@ const ContactForm = () => {
                 type="submit"
                 className="btn btn-lg"
             >
-                Enviar
+                Send
             </button>
         </form>
     );
