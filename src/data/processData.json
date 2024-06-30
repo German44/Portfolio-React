@@ -22,5 +22,11 @@
     "title": "Design",
     "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
     "image": "/public/pictures/portfolio-img2.png"
+  },
+  {
+    "id": 5,
+    "title": "Prototype",
+    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "image": "/public/pictures/portfolio-img2.png"
   }
 ]

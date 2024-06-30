@@ -11,7 +11,7 @@ export const WorkCardsleft = ({ projects }) => {
   return (
     <div className="h-[500px] sm:h-[340px] rounded-lg overflow-hidden flex flex-col sm:justify-center items-center">
       <div className="w-[95%] h-[10%] flex sm:justify-end">
-        <h2 className="text-white font-bold text-justify text-2xl underline">
+        <h2 className="text-white font-bold text-justify text-2xl underline mx-4">
           {projects.type}
         </h2>
       </div>
@@ -27,10 +27,10 @@ export const WorkCardsleft = ({ projects }) => {
         </div>
         <div className="w-full sm:w-[50%] h-[50%] sm:h-[90%] m-2 rounded-xl">
           <div className="w-full h-full flex flex-col justify-around">
-            <h4 className="text-white font-bold text-justify text-3xl">
+            <h4 className="text-white font-bold text-justify text-3xl mx-4">
               {projects.name}
             </h4>
-            <p className="text-justify m-2 text-xl">{projects.description}</p>
+            <p className="text-justify m-2 text-xl mx-4 ">{projects.description}</p>
             <div className="flex sm:justify-end mt-2 items-center">
               {projects.type === "Frontend Developer" ? (
                 <>
@@ -38,7 +38,7 @@ export const WorkCardsleft = ({ projects }) => {
                     href={projects.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-gray-300 hover:text-accent mr-8 hover:scale-105 transition duration-300"
+                    className="text-gray-300 hover:text-accent mr-4 hover:scale-105 transition duration-300 mx-4"
                   >
                     <FaGithub size={40} />
                   </a>
@@ -46,7 +46,7 @@ export const WorkCardsleft = ({ projects }) => {
                     href={projects.live}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-gray-300 hover:text-accent hover:scale-105 transition duration-300"
+                    className="text-gray-300 hover:text-accent hover:scale-105 transition duration-300 mx-4"
                   >
                     <FaExternalLinkAlt size={40} />
                   </a>

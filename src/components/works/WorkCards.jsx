@@ -11,17 +11,17 @@ export const WorkCards = ({ projects }) => {
   return (
     <div className="h-[500px] sm:h-[340px] rounded-lg overflow-hidden flex flex-col sm:justify-center items-center">
       <div className="w-[95%] h-[10%]">
-        <h2 className="text-white font-bold text-justify text-2xl underline">
+        <h2 className="text-white font-bold text-justify text-2xl underline mx-4">
           {projects.type}
         </h2>
       </div>
       <div className="w-[95%] h-[100%] sm:w-[95%] sm:h-[70%] m-4 bg-black/50 rounded-xl flex flex-col sm:flex-row justify-between items-center">
         <div className="w-full sm:w-[50%] h-[50%] sm:h-[90%] m-2 rounded-xl">
           <div className="w-full h-full flex flex-col justify-around">
-            <h4 className="text-white font-bold text-justify text-3xl">
+            <h4 className="text-white font-bold text-justify text-3xl mx-4">
               {projects.name}
             </h4>
-            <p className="text-justify m-2 text-xl">{projects.description}</p>
+            <p className="text-justify m-2 text-xl mx-4">{projects.description}</p>
             <div className="flex mt-2  items-center gap-4">
               {projects.type === "Frontend Developer" ? (
                 <>
@@ -48,7 +48,7 @@ export const WorkCards = ({ projects }) => {
                     href={projects.figma}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-gray-300 hover:text-accent mr-4 hover:scale-105 transition duration-300"
+                    className="text-gray-300 hover:text-accent mr-4 hover:scale-105 transition duration-300 mx-4"
                   >
                     <FaFigma size={40} />
                   </a>
@@ -56,7 +56,7 @@ export const WorkCards = ({ projects }) => {
                     href={projects.behance}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-gray-300 hover:text-accent hover:scale-105  mr-4 transition duration-300"
+                    className="text-gray-300 hover:text-accent hover:scale-105  mr-4 transition duration-300 mx-4"
                   >
                     <FaBehance size={40} />
                   </a>
