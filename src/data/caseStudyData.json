@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title": "Redesigning the Ecommerce",
+    "description": "UX/UI Designer",
+    "Overview": "Redesigning the Ecommerce redesign of Joyeria Argentum Joyas, using laws and design patterns",
+    "team": "German Ravarotto",
+    "duration": "1 weeks",
+    "tools": "Sketch, Figma, Paper & Pencil",
+    "image": "/public/pictures/portfolio-img2.png",
+    "designProcess": {
+      "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "processData": [
+        {
+          "id": 1,
+          "title": "Define",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/public/pictures/portfolio-img2.png"
+        },
+        {
+          "id": 2,
+          "title": "Empathize",
+          "content": "efwelifhwefhwe;fwherf;whef",
+          "image": "/public/pictures/portfolio-img2.png"
+        },
+        {
+          "id": 3,
+          "title": "Ideate",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/public/pictures/portfolio-img2.png"
+        },
+        {
+          "id": 4,
+          "title": "Design",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/public/pictures/portfolio-img2.png"
+        },
+        {
+          "id": 5,
+          "title": "Prototype",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/public/pictures/portfolio-img2.png"
+        }
+      ]
+    }
+  }
+]
