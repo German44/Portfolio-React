@@ -5,9 +5,9 @@
     "description": "UX/UI Designer",
     "Overview": "Redesigning the Ecommerce redesign of Joyeria Argentum Joyas, using laws and design patterns",
     "team": "German Ravarotto",
-    "duration": "1 weeks",
+    "duration": "1 week",
     "tools": "Sketch, Figma, Paper & Pencil",
-    "image": "/public/pictures/portfolio-img2.png",
+    "image": "/public/pictures/portfolio-img1.png",
     "designProcess": {
       "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       "processData": [
@@ -21,25 +21,70 @@
           "id": 2,
           "title": "Empathize",
           "content": "efwelifhwefhwe;fwherf;whef",
-          "image": "/public/pictures/portfolio-img2.png"
+          "image": "/public/pictures/portfolio-img3.png"
         },
         {
           "id": 3,
           "title": "Ideate",
           "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          "image": "/public/pictures/portfolio-img2.png"
+          "image": "/public/pictures/portfolio-img4.png"
         },
         {
           "id": 4,
           "title": "Design",
           "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          "image": "/public/pictures/portfolio-img2.png"
+          "image": "/public/pictures/portfolio-img5.png"
         },
         {
           "id": 5,
           "title": "Prototype",
           "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-          "image": "/public/pictures/portfolio-img2.png"
+          "image": "/public/pictures/portfolio-img6.png"
+        }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "title": "Justina.io",
+    "description": "UX/UI Designer",
+    "Overview": "Redesigning the Page of Justina.io, using laws and design patterns",
+    "team": "German Ravarotto",
+    "duration": "5 weeks",
+    "tools": "Sketch, Figma, Paper & Pencil",
+    "image": "/public/pictures/portfolio-img2.png",
+    "designProcess": {
+      "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "processData": [
+        {
+          "id": 1,
+          "title": "Define",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/public/pictures/portfolio-img7.png"
+        },
+        {
+          "id": 2,
+          "title": "Empathize",
+          "content": "efwelifhwefhwe;fwherf;whef",
+          "image": "/public/pictures/portfolio-img8.png"
+        },
+        {
+          "id": 3,
+          "title": "Ideate",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/public/pictures/portfolio-img9.png"
+        },
+        {
+          "id": 4,
+          "title": "Design",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/public/pictures/portfolio-img10.png"
+        },
+        {
+          "id": 5,
+          "title": "Prototype",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          "image": "/public/pictures/portfolio-img11.png"
         }
       ]
     }

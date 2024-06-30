@@ -2,6 +2,16 @@
   {
     "id": 1,
     "type": "UX/UI Designer",
+    "name": "Justina.io",
+    "image": "../pictures/E-CommerceRock.png",
+    "github": "https://github.com/German44/E-Commerce-TWUI.git",
+    "live": "https://e-commerce-twui.vercel.app/",
+    "position": "left",
+    "description": "Rediseng Justina.io, using laws and design patterns"
+  },
+  {
+    "id": 2,
+    "type": "UX/UI Designer",
     "name": "Redesing Ecommerce",
     "image": "../pictures/ArgentumDesing.png",
     "figma": "https://www.figma.com/proto/ABZZW7BswXtqPX9Fwh9GGs/Argentum-Tienda?node-id=0-1&t=suiHiboGBebnDQvv-1",
@@ -10,7 +20,7 @@
     "description": "Ecommerce redesign of Joyeria Argentum Joyas, using laws and design patterns"
   },
   {
-    "id": 2,
+    "id": 3,
     "type": "Frontend Developer",
     "name": "E-Commerce Rock",
     "image": "../pictures/E-CommerceRock.png",
@@ -20,7 +30,7 @@
     "description": "E-Commerce made with React and tailwind CSS, libraries such as NextUI, TailwindUI and Firebase were used."
   },
   {
-    "id": 3,
+    "id": 4,
     "type": "Frontend Developer",
     "name": " Clients Agenda",
     "image": "../pictures/agenda.png",
@@ -30,7 +40,7 @@
     "description": "Client agenda made with pure HTML, CSS and JavaScript "
   },
   {
-    "id": 4,
+    "id": 5,
     "type": "Frontend Developer",
     "name": "ClimaApp",
     "image": "../pictures/ClimaApp.png",
@@ -40,7 +50,7 @@
     "description": "ClimaApp is an application that allows you to view climate data for a city. React, Tailwind and the OpenWeatherMap API were used."
   },
   {
-    "id": 5,
+    "id": 6,
     "type": "Frontend Developer",
     "name": "Portfolio",
     "image": "../pictures/portfolio-img2.png",
