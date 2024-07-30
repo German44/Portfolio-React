@@ -2,9 +2,8 @@ import DividerTag from "../dividerTag/DividerTag";
 import Process from "./Process";
 import Sphere from "./Sphere";
 import sphereData from "../../data/sphereData.json";
-import processData from "../../data/processData.json";  
-
-
+import processData from "../../data/processData.json";
+import SphereColors from "./SphereColors";
 
 const DesignProcess = () => {
   return (
@@ -16,7 +15,7 @@ const DesignProcess = () => {
         <DividerTag tag="Design Process" />
         <div className="container mx-auto min-h-[82vh] bg-black/20 backdrop-blur-2xl rounded-xl flex items-center">
           <div className="w-full min-h-[82vh] flex flex-col justify-start items-start ">
-            <div className="mt-4 px-8 w-full h-[80px] sm:h-[150px] flex justify-center items-center gap-1 sm:gap-4 ">
+            {/*  <div className="mt-4 px-8 w-full h-[80px] sm:h-[150px] flex justify-center items-center gap-1 sm:gap-4 ">
               {sphereData.map((sphere) => (
                 <Sphere
                   key={sphere.id}
@@ -25,7 +24,8 @@ const DesignProcess = () => {
                   hover={sphere.hover}
                 />
               ))}
-            </div>
+            </div> */}
+            <SphereColors />
             <div className="w-full flex justify-center items-center">
               <h3 className="sm:text-2xl text-lg font-semibold text-yellow-50/40 px-8 mt-4 ">
                 Click into any process to see
