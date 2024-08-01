@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import AboutCaseStudy from "../components/about/AboutCaseStudy";
 import DesignProcess from "../components/designProcess/DesignProcess";
 import Final from "../components/final/Final";

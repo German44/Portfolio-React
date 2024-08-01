@@ -8,7 +8,7 @@ export const routes = createBrowserRouter([
     element: <HomePage />,
   },
   {
-    path: "/CaseStudy",
+    path: "/CaseStudy/:id",
     element: <CaseStudyPage />,
   },
 ]);

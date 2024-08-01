@@ -7,7 +7,11 @@
     "github": "https://github.com/German44/E-Commerce-TWUI.git",
     "live": "https://e-commerce-twui.vercel.app/",
     "position": "left",
-    "description": "Rediseng Justina.io, using laws and design patterns"
+    "description": "Rediseng Justina.io, using laws and design patterns",
+    "Overview": "Redesigning the Ecommerce redesign of Joyeria Argentum Joyas, using laws and design patterns",
+    "team": "German Ravarotto",
+    "duration": "6 week",
+    "tools": "Sketch, Figma, Paper & Pencil"
   },
   {
     "id": 2,
@@ -17,7 +21,11 @@
     "figma": "https://www.figma.com/proto/ABZZW7BswXtqPX9Fwh9GGs/Argentum-Tienda?node-id=0-1&t=suiHiboGBebnDQvv-1",
     "behance": "https://portfolio-react-german44.vercel.app/",
     "position": "right",
-    "description": "Ecommerce redesign of Joyeria Argentum Joyas, using laws and design patterns"
+    "description": "Ecommerce redesign of Joyeria Argentum Joyas, using laws and design patterns",
+    "Overview": "Redesigning the Ecommerce redesign of Joyeria Argentum Joyas, using laws and design patterns",
+    "team": "German Ravarotto",
+    "duration": "1 week",
+    "tools": "Sketch, Figma, Paper & Pencil"
   },
   {
     "id": 3,

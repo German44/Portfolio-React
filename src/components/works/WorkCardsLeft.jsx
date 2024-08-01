@@ -6,7 +6,7 @@ import {
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-export const WorkCardsleft = ({ projects }) => {
+export const WorkCardsleft = ({ projects, id }) => {
   /* console.log(projects) */
   return (
     <div className="h-[500px] sm:h-[340px] rounded-lg overflow-hidden flex flex-col sm:justify-center items-center">
@@ -30,7 +30,9 @@ export const WorkCardsleft = ({ projects }) => {
             <h4 className="text-white font-bold text-justify text-3xl mx-4">
               {projects.name}
             </h4>
-            <p className="text-justify m-2 text-xl mx-4 ">{projects.description}</p>
+            <p className="text-justify m-2 text-xl mx-4 ">
+              {projects.description}
+            </p>
             <div className="flex sm:justify-end mt-2 items-center">
               {projects.type === "Frontend Developer" ? (
                 <>
@@ -70,8 +72,8 @@ export const WorkCardsleft = ({ projects }) => {
                     <FaBehance size={40} />
                   </a>
                   <Link
-                    to="/CaseStudy"
-                    className="text-gray-300 text-xl  hover:text-accent hover:scale-105 transition duration-300 text-bold"
+                    to={`/CaseStudy/${id}`}
+                    className="text-gray-300 text-xl hover:text-accent hover:scale-105 transition duration-300 text-bold"
                   >
                     Case Study
                   </Link>
