@@ -1,10 +1,12 @@
 import DividerTag from "../dividerTag/DividerTag";
 import Process from "./Process";
-import Sphere from "./Sphere";
-import sphereData from "../../data/sphereData.json";
+/* import Sphere from "./Sphere";
+import sphereData from "../../data/sphereData.json"; */
 import processData from "../../data/processData.json";
 import SphereColors from "./SphereColors";
+import caseStudyData from "../../data/caseStudyData.json"
 
+console.log(caseStudyData)
 const DesignProcess = () => {
   return (
     <>
