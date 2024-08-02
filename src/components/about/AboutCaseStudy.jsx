@@ -1,11 +1,11 @@
-import React from 'react';
 import DividerTag from "../dividerTag/DividerTag";
-import { useParams } from 'react-router-dom';
-import projects from "../../data/projects.json"; // Asegúrate de que esta ruta sea correcta
+import { useParams } from "react-router-dom";
+import projects from "../../data/projects.json";
 
 const AboutCaseStudy = () => {
   const { id } = useParams();
-  const caseStudy = projects.find(cs => cs.id === parseInt(id));
+  const caseStudy = projects.find((cs) => cs.id === parseInt(id));
+  console.log(caseStudy);
 
   if (!caseStudy) {
     return <p>Case Study not found</p>;
@@ -28,7 +28,7 @@ const AboutCaseStudy = () => {
               <div className="col-span-2 row-span-4 row-start-2 sm:col-span-2 sm:row-span-3 sm:col-start-1 sm:row-start-2 px-8 flex flex-col justify-start items-start">
                 <h4 className="font-semibold text-2xl">Overview</h4>
                 <p className="font-normal text-lg text-justify">
-                  {caseStudy.Overview}
+                  {caseStudy.overview}
                 </p>
               </div>
               <div className="col-span-2 row-span-4 col-start-1 row-start-6 sm:col-span-2 sm:row-span-4 sm:col-start-3 sm:row-start-1 px-8">

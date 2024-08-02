@@ -8,10 +8,45 @@
     "live": "https://e-commerce-twui.vercel.app/",
     "position": "left",
     "description": "Rediseng Justina.io, using laws and design patterns",
-    "Overview": "Redesigning the Ecommerce redesign of Joyeria Argentum Joyas, using laws and design patterns",
+    "overview": "Redesigning the Ecommerce redesign of Joyeria Argentum Joyas, using laws and design patterns",
     "team": "German Ravarotto",
     "duration": "6 week",
-    "tools": "Sketch, Figma, Paper & Pencil"
+    "tools": "Sketch, Figma, Paper & Pencil",
+    "designProcess": {
+      "overview": "Overview of the redesign process for Joyeria Argentum Joyas.",
+      "processSteps": [
+        {
+          "id": 1,
+          "title": "Define",
+          "content": "Understanding the requirements and goals for the redesign.",
+          "image": "/public/pictures/portfolio-img2.png"
+        },
+        {
+          "id": 2,
+          "title": "Empathize",
+          "content": "Gathering insights from users and stakeholders.",
+          "image": "/public/pictures/portfolio-img3.png"
+        },
+        {
+          "id": 3,
+          "title": "Ideate",
+          "content": "Generating ideas and concepts for the redesign.",
+          "image": "/public/pictures/portfolio-img4.png"
+        },
+        {
+          "id": 4,
+          "title": "Design",
+          "content": "Creating detailed designs and mockups.",
+          "image": "/public/pictures/portfolio-img5.png"
+        },
+        {
+          "id": 5,
+          "title": "Prototype",
+          "content": "Developing a prototype to test and refine the design.",
+          "image": "/public/pictures/portfolio-img6.png"
+        }
+      ]
+    }
   },
   {
     "id": 2,
@@ -22,10 +57,45 @@
     "behance": "https://portfolio-react-german44.vercel.app/",
     "position": "right",
     "description": "Ecommerce redesign of Joyeria Argentum Joyas, using laws and design patterns",
-    "Overview": "Redesigning the Ecommerce redesign of Joyeria Argentum Joyas, using laws and design patterns",
+    "overview": "Redesigning the Ecommerce redesign of Joyeria Argentum Joyas, using laws and design patterns",
     "team": "German Ravarotto",
     "duration": "1 week",
-    "tools": "Sketch, Figma, Paper & Pencil"
+    "tools": "Sketch, Figma, Paper & Pencil",
+    "designProcess": {
+      "overview": "Overview of the redesign process for Joyeria Argentum Joyas.",
+      "processSteps": [
+        {
+          "id": 1,
+          "title": "Define",
+          "content": "puto el q lee Understanding the requirements and goals for the redesign.",
+          "image": "/public/pictures/portfolio-img2.png"
+        },
+        {
+          "id": 2,
+          "title": "Empathize",
+          "content": "Gathering  jajaj insights from users and stakeholders.",
+          "image": "/public/pictures/portfolio-img3.png"
+        },
+        {
+          "id": 3,
+          "title": "Ideate",
+          "content": "Generating  tuki ideas and concepts for the redesign.",
+          "image": "/public/pictures/portfolio-img4.png"
+        },
+        {
+          "id": 4,
+          "title": "Design",
+          "content": "Creating tukis detailed designs and mockups.",
+          "image": "/public/pictures/portfolio-img5.png"
+        },
+        {
+          "id": 5,
+          "title": "Prototype",
+          "content": "Developing a prototype to test and refine the design.",
+          "image": "/public/pictures/portfolio-img6.png"
+        }
+      ]
+    }
   },
   {
     "id": 3,

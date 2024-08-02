@@ -2,12 +2,26 @@ import DividerTag from "../dividerTag/DividerTag";
 import Process from "./Process";
 /* import Sphere from "./Sphere";
 import sphereData from "../../data/sphereData.json"; */
-import processData from "../../data/processData.json";
+/* import processData from "../../data/processData.json"; */
 import SphereColors from "./SphereColors";
-import caseStudyData from "../../data/caseStudyData.json"
+/* import caseStudyData from "../../data/caseStudyData.json"; */
+import { useParams } from "react-router-dom";
+import projects from "../../data/projects.json";
 
-console.log(caseStudyData)
+/* console.log(caseStudyData); */
 const DesignProcess = () => {
+  const { id } = useParams();
+  const caseStudy = projects.find((cs) => cs.id === parseInt(id));
+
+  console.log(caseStudy.designProcess.processSteps);
+
+const processData = caseStudy.designProcess.processSteps ///quiero guardar 
+
+
+  if (!caseStudy) {
+    return <p>Case Study not found</p>;
+  }
+
   return (
     <>
       <section
@@ -35,13 +49,14 @@ const DesignProcess = () => {
             </div>
             <div className="w-full flex justify-center items-center">
               <p className="sm:text-2xl text-lg font-semibold  px-8 mt-4 ">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+               {/*  Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Explicabo nisi facilis autem asperiores consequatur cum minus
                 molestiae! Commodi nostrum minus consequuntur, rem consequatur
                 quisquam, consectetur tempore totam tempora eos non ipsa fugiat
                 fuga ipsum ratione culpa asperiores, numquam sunt quod
                 voluptatum doloremque veritatis eaque. Sed quam eaque
-                repudiandae. Necessitatibus, ullam?
+                repudiandae. Necessitatibus, ullam? */}
+                {caseStudy.designProcess.overview}
               </p>
             </div>
             {processData.map((process) => (
