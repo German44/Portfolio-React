@@ -7,13 +7,13 @@
     "github": "https://github.com/German44/E-Commerce-TWUI.git",
     "live": "https://e-commerce-twui.vercel.app/",
     "position": "left",
-    "description": "Rediseng Justina.io, using laws and design patterns",
-    "overview": "Redesigning the Ecommerce redesign of Joyeria Argentum Joyas, using laws and design patterns",
-    "team": "German Ravarotto",
-    "duration": "6 week",
+    "description": "Proyecto Hackaton organizado por No Country, Trabajo junto a un equipo multidisciplinario",
+    "overview": "Proyecto Hackaton organizado por No Country, consistia en la creacion de una app con fines medicos",
+    "team": "German Ravarotto , Yanira Martinez",
+    "duration": "5 week",
     "tools": "Sketch, Figma, Paper & Pencil",
     "designProcess": {
-      "overview": "Overview of the redesign process for Joyeria Argentum Joyas.",
+      "overview": "Para esta MVP App utilizamos el proceso Desing Thinking, y tambien la documentacion y requerimientos brindados por el cliente",
       "processSteps": [
         {
           "id": 1,

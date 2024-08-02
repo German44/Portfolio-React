@@ -22,14 +22,14 @@ const Work = () => {
       <DividerTag tag="Works" />
       <div className="container mx-auto min-h-[82vh] bg-black/20 backdrop-blur-2xl rounded-xl flex items-center">
         <div className="min-h-[82vh] w-full flex flex-col gap-6">
-          <div className="w-full h-[80px] sm:h-[150px] flex justify-center items-center gap-4">
-            <h3 className="text-white font-bold font-primary sm:text-2xl text-lg mt-1 mx-8">
+          <div className="w-full h-auto sm:h-[150px] flex flex-col sm:flex-row justify-center items-center gap-4">
+            <h3 className="text-white font-bold font-primary sm:text-2xl text-md mt-1 mx-8">
               Filter My Works by
             </h3>
             <button
               className={`w-[250px] rounded-full border-solid border-2 "border-white" ${
                 selectedCategory === "UX/UI Designer" ? "bg-white text-accent" : "bg-transparent text-white hover:text-accent hover:bg-white/40 hover:border-accent " 
-              } text-sm sm:text-xl  font-semibold p-4 mx-4`}
+              } text-sm sm:text-xl text-md font-semibold p-4 mx-4`}
               onClick={() => handleCategoryClick("UX/UI Designer")}
             >
              UX/UI Designer
@@ -37,7 +37,7 @@ const Work = () => {
             <button
               className={`w-[250px] rounded-full border-solid border-2 ${
                 selectedCategory === "Frontend Developer" ? "bg-white text-accent" : "bg-transparent text-white hover:text-accent hover:bg-white/40 hover:border-accent "
-              }  text-sm sm:text-xl  font-semibold p-4 mx-4`}
+              }  text-sm sm:text-xl text-md font-semibold p-4 mx-4`}
               onClick={() => handleCategoryClick("Frontend Developer")}
             >
               Frontend Developer
