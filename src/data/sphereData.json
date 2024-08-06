@@ -1,31 +1,31 @@
 [
   {
     "id": 1,
-    "title": "Define",
+    "title": "Empatizar",
     "color": "red",
     "hover": "red"
   },
   {
     "id": 2,
-    "title": "Empathize",
+    "title": "Definir",
     "color": "orange",
     "hover": "orange"
   },
   {
     "id": 3,
-    "title": "Ideate",
+    "title": "Idear",
     "color": "yellow",
     "hover": "yellow"
   },
   {
     "id": 4,
-    "title": "Design",
+    "title": "Diseñar",
     "color": "lime",
     "hover": "lime"
   },
   {
     "id": 5,
-    "title": "Prototype",
+    "title": "Prototipar",
     "color": "emerald",
     "hover": "emerald"
   }

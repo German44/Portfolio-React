@@ -3,7 +3,7 @@
     "id": 1,
     "type": "UX/UI Designer",
     "name": "Justina.io",
-    "image": "../pictures/E-CommerceRock.png",
+    "image": "https://firebasestorage.googleapis.com/v0/b/works-projects-520db.appspot.com/o/Justina.io%2FPixel%207a.png?alt=media&token=76402cb6-0ebf-43ef-a608-e5c1813d5a2b",
     "github": "https://github.com/German44/E-Commerce-TWUI.git",
     "live": "https://e-commerce-twui.vercel.app/",
     "position": "left",
@@ -13,36 +13,58 @@
     "duration": "5 week",
     "tools": "Sketch, Figma, Paper & Pencil",
     "designProcess": {
-      "overview": "Para esta MVP App utilizamos el proceso Desing Thinking, y tambien la documentacion y requerimientos brindados por el cliente",
+      "overview": "Para el desarrollo de nuestra MVP Justina.io, empleamos el proceso de Design Thinking en combinación con la documentación y los requerimientos proporcionados por el cliente. Este enfoque nos permitió asegurar que nuestras soluciones fueran centradas en el usuario y alineadas con las expectativas del cliente.",
       "processSteps": [
         {
           "id": 1,
-          "title": "Define",
-          "content": "Understanding the requirements and goals for the redesign.",
-          "image": "/public/pictures/portfolio-img2.png"
-        },
-        {
-          "id": 2,
-          "title": "Empathize",
-          "content": "Gathering insights from users and stakeholders.",
+          "title": "Empatizar",
+          "content": "En esta primera etapa, nos enfocamos en comprender profundamente a los usuarios finales de la aplicación: médicos y pacientes. Realizamos entrevistas en profundidad, observaciones en entornos naturales y encuestas para recoger información valiosa sobre sus experiencias, motivaciones y desafíos. Esta fase nos permitió desarrollar una comprensión empática del problema y del contexto en el que se presenta.",
           "image": "/public/pictures/portfolio-img3.png"
         },
         {
+          "id": 132,
+          "title": "Entrevistas a usuarios",
+          "content": "Realizamos entrevistas individuales con médicos, pacientes y personal administrativo para recoger información detallada sobre sus experiencias y necesidades.",
+          "image": "https://firebasestorage.googleapis.com/v0/b/works-projects-520db.appspot.com/o/Justina.io%2FEntrevista%20Paciente.png?alt=media&token=91d9984a-db2d-479a-b340-79b0c18e79aa"
+        },
+        {
+          "image": "https://firebasestorage.googleapis.com/v0/b/works-projects-520db.appspot.com/o/Justina.io%2FEntrevista%20medico.png?alt=media&token=e2b235ac-40d2-4b9b-a13e-50d4805c9e93"
+        },
+        {
+          "id": 2,
+          "title": "Definir",
+          "content": "Una vez que recopilamos suficiente información sobre los usuarios, procedimos a sintetizar estos datos para definir claramente el problema. Formulamos una declaración del problema basada en los insights obtenidos durante la fase de empatizar y en los requerimientos del cliente. Esta definición del problema nos proporcionó un enfoque claro y específico para las etapas siguientes, asegurando que nuestras soluciones abordaran tanto las necesidades de los usuarios como las expectativas del cliente."        },
+        {
+          "id": 12,
+          "title": "5 W Preguntas",
+          "content": "En este paso del proceso de Design Thinking, nos enfocamos en reconocer y definir claramente el problema al que nos enfrentamos. Para ello, utilizamos el método de las 5 preguntas W (What, Who, When, Where, Why) de acuerdo con la indicación de diseño dada.",
+          "image": "https://firebasestorage.googleapis.com/v0/b/works-projects-520db.appspot.com/o/Justina.io%2FDesktop%20-%204.png?alt=media&token=c5cb64f4-726c-4a7c-844b-09daf5d1b7e9"
+        },
+        {
+          "id": 14,
+          "title": "Historias de Usuarios",
+          "content": "A través de entrevistas y preguntas específicas dirigidas a pacientes y doctores, hemos identificado varias necesidades críticas y expectativas. A continuación, se presentan las historias de usuario que capturan estos insights:",
+          "image": "https://firebasestorage.googleapis.com/v0/b/works-projects-520db.appspot.com/o/Justina.io%2FHistorias%20de%20usuarios%20paciente.png?alt=media&token=898fba6f-1b3e-48ff-87a3-3d4887e12e01"
+        },
+        {
+          "image": "https://firebasestorage.googleapis.com/v0/b/works-projects-520db.appspot.com/o/Justina.io%2FHistorias%20de%20usuarios%20medico.png?alt=media&token=7bbc528c-cb2d-4611-ad40-adb5668b1134"
+        },
+        {
           "id": 3,
-          "title": "Ideate",
-          "content": "Generating ideas and concepts for the redesign.",
+          "title": "Idear",
+          "content": "Con una comprensión clara del problema, pasamos a la fase de ideación. En esta etapa, generamos una amplia gama de ideas y soluciones potenciales a través de técnicas como brainstorming y sketching. Involucramos al equipo y al cliente en sesiones colaborativas para explorar diversas posibilidades y seleccionar las más prometedoras. La combinación de la creatividad del equipo y la guía del cliente fue fundamental para identificar las mejores soluciones.",
           "image": "/public/pictures/portfolio-img4.png"
         },
         {
           "id": 4,
-          "title": "Design",
-          "content": "Creating detailed designs and mockups.",
+          "title": "Diseñar",
+          "content": "Seleccionamos algunas de las mejores ideas y las convertimos en prototipos tangibles. Estos prototipos, que incluían bocetos y modelos interactivos, nos permitieron explorar cómo podrían funcionar las soluciones en la práctica. Nos aseguramos de que los prototipos fueran lo suficientemente detallados para ser evaluados, pero también lo suficientemente flexibles para permitir iteraciones rápidas basadas en el feedback.",
           "image": "/public/pictures/portfolio-img5.png"
         },
         {
           "id": 5,
-          "title": "Prototype",
-          "content": "Developing a prototype to test and refine the design.",
+          "title": "Prototipar",
+          "content": "Finalmente, probamos nuestros prototipos con usuarios reales y con el cliente para obtener feedback valioso. Evaluamos la funcionalidad y usabilidad de las soluciones propuestas, identificando posibles mejoras y ajustando nuestros diseños en consecuencia. El feedback de los usuarios y del cliente fue crucial para refinar y validar nuestras soluciones, asegurando que el producto final cumpliera con las expectativas y necesidades definidas.",
           "image": "/public/pictures/portfolio-img6.png"
         }
       ]
