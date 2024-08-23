@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Define",
+    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "image": "/public/pictures/portfolio-img2.png"
+  },
+  {
+    "id": 2,
+    "title": "Empathize",
+    "content": "efwelifhwefhwe;fwherf;whef",
+    "image": "/public/pictures/portfolio-img2.png"
+  },
+  {
+    "id": 3,
+    "title": "Ideate",
+    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "image": "/public/pictures/portfolio-img2.png"
+  },
+  {
+    "id": 4,
+    "title": "Design",
+    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "image": "/public/pictures/portfolio-img2.png"
+  },
+  {
+    "id": 5,
+    "title": "Prototype",
+    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "image": "/public/pictures/portfolio-img2.png"
+  }
+]
